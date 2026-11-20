@@ -1,0 +1,2473 @@
+{
+ "seed": 0,
+ "predictor": {
+  "LCSA": {
+   "test": {
+    "auroc": 0.9652437099482527,
+    "auprc": 0.9129077171001048,
+    "brier": 0.06290766199367842,
+    "ece": 0.016200322535661373,
+    "nll": 0.2162497482133746
+   },
+   "rough_sea": {
+    "auroc": 0.9651005052843311,
+    "auprc": 0.9216672175421006,
+    "brier": 0.0646293266996397,
+    "ece": 0.015706726616406493,
+    "nll": 0.21917922185440294
+   },
+   "ais_dropout": {
+    "auroc": 0.9355901990804384,
+    "auprc": 0.8662998930989427,
+    "brier": 0.0919226413922977,
+    "ece": 0.01988656440444138,
+    "nll": 0.296123528323453
+   },
+   "dense_traffic": {
+    "auroc": 0.9477121580507594,
+    "auprc": 0.9371738475210551,
+    "brier": 0.08440376261945472,
+    "ece": 0.022305682116340257,
+    "nll": 0.2878697340609656
+   },
+   "high_speed_craft": {
+    "auroc": 0.9502991972300541,
+    "auprc": 0.905579480362838,
+    "brier": 0.08142044609114964,
+    "ece": 0.030342144574482123,
+    "nll": 0.27748241379248834
+   },
+   "link_degradation": {
+    "auroc": 0.970881515683096,
+    "auprc": 0.9283472891900832,
+    "brier": 0.057361682456255246,
+    "ece": 0.01792368875461208,
+    "nll": 0.1985215524603274
+   }
+  },
+  "MLP-set": {
+   "test": {
+    "auroc": 0.9640821630753524,
+    "auprc": 0.9100724810223259,
+    "brier": 0.06363905704656697,
+    "ece": 0.01269595644781549,
+    "nll": 0.2183785337769588
+   },
+   "rough_sea": {
+    "auroc": 0.9640262636873442,
+    "auprc": 0.917375199784978,
+    "brier": 0.06558987705583927,
+    "ece": 0.013667895849220742,
+    "nll": 0.22248186541823042
+   },
+   "ais_dropout": {
+    "auroc": 0.9335687209306112,
+    "auprc": 0.8596993335539616,
+    "brier": 0.0927270948490182,
+    "ece": 0.01347515180538046,
+    "nll": 0.29989159212727234
+   },
+   "dense_traffic": {
+    "auroc": 0.9454759610383896,
+    "auprc": 0.9346829225582083,
+    "brier": 0.08638091086562416,
+    "ece": 0.02020151676289872,
+    "nll": 0.2927219787149576
+   },
+   "high_speed_craft": {
+    "auroc": 0.9513122629972702,
+    "auprc": 0.903289735081351,
+    "brier": 0.07908514314924633,
+    "ece": 0.027328231304294705,
+    "nll": 0.26917874261484276
+   },
+   "link_degradation": {
+    "auroc": 0.9697208772869204,
+    "auprc": 0.9244425153182947,
+    "brier": 0.058420254163817825,
+    "ece": 0.014914854283110441,
+    "nll": 0.2017888020295455
+   }
+  },
+  "LCSA-noctx": {
+   "test": {
+    "auroc": 0.9651792177383999,
+    "auprc": 0.9119364706331151,
+    "brier": 0.06285982437230933,
+    "ece": 0.016481163924652136,
+    "nll": 0.21614433988628193
+   },
+   "rough_sea": {
+    "auroc": 0.9649439723065418,
+    "auprc": 0.920801472892749,
+    "brier": 0.06443768516363793,
+    "ece": 0.014010444897986656,
+    "nll": 0.21888296892960274
+   },
+   "ais_dropout": {
+    "auroc": 0.9364728840653044,
+    "auprc": 0.8671897406969651,
+    "brier": 0.09113229605502028,
+    "ece": 0.018450266703144154,
+    "nll": 0.293718173180966
+   },
+   "dense_traffic": {
+    "auroc": 0.9471283239786529,
+    "auprc": 0.9363408776844993,
+    "brier": 0.08487126161096568,
+    "ece": 0.02157269538576897,
+    "nll": 0.28918476244901703
+   },
+   "high_speed_craft": {
+    "auroc": 0.9498800237143855,
+    "auprc": 0.904326978921597,
+    "brier": 0.08101541857749069,
+    "ece": 0.025348424671081782,
+    "nll": 0.27566608818441546
+   },
+   "link_degradation": {
+    "auroc": 0.970931817646298,
+    "auprc": 0.9290730377693525,
+    "brier": 0.0572302350012054,
+    "ece": 0.018248259959967723,
+    "nll": 0.19818349589722695
+   }
+  },
+  "LCSA-single": {
+   "test": {
+    "auroc": 0.9641572460338477,
+    "auprc": 0.9085580324363627,
+    "brier": 0.06358004017304861,
+    "ece": 0.014001048068471652,
+    "nll": 0.21891046801025185
+   },
+   "rough_sea": {
+    "auroc": 0.9632327069880016,
+    "auprc": 0.9165146071373594,
+    "brier": 0.0655975296144714,
+    "ece": 0.016593822080763865,
+    "nll": 0.22388442924039376
+   },
+   "ais_dropout": {
+    "auroc": 0.9329661265103352,
+    "auprc": 0.8614008640584598,
+    "brier": 0.09339572707170193,
+    "ece": 0.017474934379273496,
+    "nll": 0.30087632479677257
+   },
+   "dense_traffic": {
+    "auroc": 0.9461562464994959,
+    "auprc": 0.9349085501283166,
+    "brier": 0.08546067146067078,
+    "ece": 0.01853882836674015,
+    "nll": 0.29132424656572753
+   },
+   "high_speed_craft": {
+    "auroc": 0.9479027693676889,
+    "auprc": 0.9002056250193126,
+    "brier": 0.0848562449605742,
+    "ece": 0.040468790334093986,
+    "nll": 0.2925316196716831
+   },
+   "link_degradation": {
+    "auroc": 0.9698317484275466,
+    "auprc": 0.9263232807765062,
+    "brier": 0.05792115157712351,
+    "ece": 0.014159892232698253,
+    "nll": 0.20070946404662054
+   }
+  }
+ },
+ "methods": {
+  "Rule-CPA": {
+   "unsafe_rate": 0.08113020489094515,
+   "auto_clear_miss": 0.07799074686054197,
+   "late_takeover_hazard": 0.0031394580304031725,
+   "false_manoeuvre": 0.15392887869228564,
+   "takeover_rate": 0.1166,
+   "mrm_rate": 0.1865351629502573,
+   "mrm_per_hour": 31.31170885730361,
+   "utilisation": 0.784687600504996,
+   "mean_wait": 35.61405120513055,
+   "wait_q90": 123.14588082723459,
+   "autonomy": 0.8834
+  },
+  "Threshold-0.5": {
+   "unsafe_rate": 0.1369795109054858,
+   "auto_clear_miss": 0.1369795109054858,
+   "late_takeover_hazard": 0.0,
+   "false_manoeuvre": 0.057499283051333526,
+   "takeover_rate": 0.0,
+   "mrm_rate": 0.0,
+   "mrm_per_hour": 0.0,
+   "utilisation": 0.0,
+   "mean_wait": 0.0,
+   "wait_q90": 0.0,
+   "autonomy": 1.0
+  },
+  "Selective-conf": {
+   "unsafe_rate": 0.10161929940515532,
+   "auto_clear_miss": 0.05584930601454065,
+   "late_takeover_hazard": 0.045769993390614674,
+   "false_manoeuvre": 0.028176082592486378,
+   "takeover_rate": 0.13615,
+   "mrm_rate": 0.2596401028277635,
+   "mrm_per_hour": 50.8905245106061,
+   "utilisation": 0.8134014085567687,
+   "mean_wait": 26.49459503622976,
+   "wait_q90": 69.57549512374828,
+   "autonomy": 0.86385
+  },
+  "Ensemble-defer": {
+   "unsafe_rate": 0.12111698612029081,
+   "auto_clear_miss": 0.0713813615333774,
+   "late_takeover_hazard": 0.04973562458691342,
+   "false_manoeuvre": 0.03534556925724118,
+   "takeover_rate": 0.1305,
+   "mrm_rate": 0.2796934865900383,
+   "mrm_per_hour": 52.546086128348584,
+   "utilisation": 0.8075498292538063,
+   "mean_wait": 30.737181618320644,
+   "wait_q90": 84.7130790504383,
+   "autonomy": 0.8694999999999999
+  },
+  "SCRC-global": {
+   "unsafe_rate": 0.025280898876404494,
+   "auto_clear_miss": 0.01784534038334435,
+   "late_takeover_hazard": 0.007435558493060146,
+   "false_manoeuvre": 0.111198738170347,
+   "takeover_rate": 0.1361,
+   "mrm_rate": 0.2490815576781778,
+   "mrm_per_hour": 48.80307725345252,
+   "utilisation": 0.8581501572800495,
+   "mean_wait": 43.280672985069025,
+   "wait_q90": 113.66416610966846,
+   "autonomy": 0.8639
+  },
+  "LTT-help (RCIP-style)": {
+   "unsafe_rate": 0.014375413086582947,
+   "auto_clear_miss": 0.012392597488433575,
+   "late_takeover_hazard": 0.0019828155981493722,
+   "false_manoeuvre": 0.19608546028104387,
+   "takeover_rate": 0.11985,
+   "mrm_rate": 0.20191906549853983,
+   "mrm_per_hour": 34.83877491249413,
+   "utilisation": 0.7871674100553849,
+   "mean_wait": 39.17754188156233,
+   "wait_q90": 112.89598074456845,
+   "autonomy": 0.88015
+  },
+  "CORAL (ours)": {
+   "unsafe_rate": 0.018010575016523464,
+   "auto_clear_miss": 0.01668869795109055,
+   "late_takeover_hazard": 0.0013218770654329147,
+   "false_manoeuvre": 0.12804703183252078,
+   "takeover_rate": 0.1322,
+   "mrm_rate": 0.1115733736762481,
+   "mrm_per_hour": 21.234377271044977,
+   "utilisation": 0.6561538113896819,
+   "mean_wait": 11.717608618068978,
+   "wait_q90": 34.72752017346176,
+   "autonomy": 0.8678
+  },
+  "CORAL-L (ours)": {
+   "unsafe_rate": 0.01751487111698612,
+   "auto_clear_miss": 0.01668869795109055,
+   "late_takeover_hazard": 0.0008261731658955717,
+   "false_manoeuvre": 0.13005448809865214,
+   "takeover_rate": 0.13075,
+   "mrm_rate": 0.10630975143403441,
+   "mrm_per_hour": 20.01070129271357,
+   "utilisation": 0.6168477767528935,
+   "mean_wait": 8.160131805164603,
+   "wait_q90": 23.855454717299285,
+   "autonomy": 0.86925
+  },
+  "w/o epistemic inflation": {
+   "unsafe_rate": 0.017184401850627893,
+   "auto_clear_miss": 0.01520158625247852,
+   "late_takeover_hazard": 0.0019828155981493722,
+   "false_manoeuvre": 0.13392601089761974,
+   "takeover_rate": 0.136,
+   "mrm_rate": 0.12095588235294118,
+   "mrm_per_hour": 23.681729227707788,
+   "utilisation": 0.6971744101423663,
+   "mean_wait": 16.48446556654626,
+   "wait_q90": 53.636839695725016,
+   "autonomy": 0.864
+  },
+  "w/o link stratification": {
+   "unsafe_rate": 0.018836748182419035,
+   "auto_clear_miss": 0.018175809649702578,
+   "late_takeover_hazard": 0.0006609385327164573,
+   "false_manoeuvre": 0.1200172067679954,
+   "takeover_rate": 0.132,
+   "mrm_rate": 0.11136363636363636,
+   "mrm_per_hour": 21.16239633114313,
+   "utilisation": 0.6474551399371391,
+   "mean_wait": 12.522711932269605,
+   "wait_q90": 38.010035783184314,
+   "autonomy": 0.868
+  },
+  "w/o workload budget": {
+   "unsafe_rate": 0.02594183740912095,
+   "auto_clear_miss": 0.01668869795109055,
+   "late_takeover_hazard": 0.009253139458030404,
+   "false_manoeuvre": 0.12216805276742185,
+   "takeover_rate": 0.136,
+   "mrm_rate": 0.2025735294117647,
+   "mrm_per_hour": 39.6614978859179,
+   "utilisation": 0.885822841517872,
+   "mean_wait": 59.01671654926848,
+   "wait_q90": 174.0832608167537,
+   "autonomy": 0.864
+  },
+  "w/o urgency queue": {
+   "unsafe_rate": 0.017680105750165234,
+   "auto_clear_miss": 0.01668869795109055,
+   "late_takeover_hazard": 0.0009914077990746861,
+   "false_manoeuvre": 0.12804703183252078,
+   "takeover_rate": 0.1322,
+   "mrm_rate": 0.12367624810892587,
+   "mrm_per_hour": 23.537767347904094,
+   "utilisation": 0.6466999476292096,
+   "mean_wait": 10.396850770044933,
+   "wait_q90": 31.407068426314446,
+   "autonomy": 0.8678
+  },
+  "w/o attention (MLP-set)": {
+   "unsafe_rate": 0.017019167217448776,
+   "auto_clear_miss": 0.015532055518836747,
+   "late_takeover_hazard": 0.001487111698612029,
+   "false_manoeuvre": 0.13069974189848008,
+   "takeover_rate": 0.1376,
+   "mrm_rate": 0.10864825581395349,
+   "mrm_per_hour": 21.52230103065237,
+   "utilisation": 0.702141810149875,
+   "mean_wait": 18.21681051741258,
+   "wait_q90": 58.36525931871298,
+   "autonomy": 0.8624
+  },
+  "w/o context query": {
+   "unsafe_rate": 0.018010575016523464,
+   "auto_clear_miss": 0.01668869795109055,
+   "late_takeover_hazard": 0.0013218770654329147,
+   "false_manoeuvre": 0.13062804703183253,
+   "takeover_rate": 0.132,
+   "mrm_rate": 0.11287878787878788,
+   "mrm_per_hour": 21.45032009075052,
+   "utilisation": 0.66888200214261,
+   "mean_wait": 13.433162225127335,
+   "wait_q90": 40.206987759485294,
+   "autonomy": 0.868
+  },
+  "w/o ensemble (single)": {
+   "unsafe_rate": 0.017184401850627893,
+   "auto_clear_miss": 0.015366820885657634,
+   "late_takeover_hazard": 0.0018175809649702578,
+   "false_manoeuvre": 0.13335245196443934,
+   "takeover_rate": 0.13935,
+   "mrm_rate": 0.12271259418729817,
+   "mrm_per_hour": 24.617481446431803,
+   "utilisation": 0.7108429163328795,
+   "mean_wait": 17.83741850000749,
+   "wait_q90": 56.74012496080941,
+   "autonomy": 0.86065
+  }
+ },
+ "ood": {
+  "Rule-CPA": {
+   "rough_sea": {
+    "unsafe_rate": 0.08908868001634655,
+    "auto_clear_miss": 0.0813240702901512,
+    "late_takeover_hazard": 0.007764609726195341,
+    "false_manoeuvre": 0.14496668467495047,
+    "takeover_rate": 0.116,
+    "mrm_rate": 0.21551724137931033,
+    "mrm_per_hour": 36.42432648602032,
+    "utilisation": 0.8162752811463623,
+    "mean_wait": 48.540750347523634,
+    "wait_q90": 166.40028260586118,
+    "autonomy": 0.884
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.12097440132122213,
+    "auto_clear_miss": 0.1069364161849711,
+    "late_takeover_hazard": 0.014037985136251032,
+    "false_manoeuvre": 0.14718537110075297,
+    "takeover_rate": 0.117875,
+    "mrm_rate": 0.19300106044538706,
+    "mrm_per_hour": 33.14613710227849,
+    "utilisation": 0.8391665115548634,
+    "mean_wait": 42.438997781599326,
+    "wait_q90": 131.6095234489218,
+    "autonomy": 0.882125
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.05642712550607287,
+    "auto_clear_miss": 0.05086032388663968,
+    "late_takeover_hazard": 0.005566801619433198,
+    "false_manoeuvre": 0.28384387351778656,
+    "takeover_rate": 0.1415,
+    "mrm_rate": 0.24381625441696114,
+    "mrm_per_hour": 50.265570550708034,
+    "utilisation": 0.8656003552502779,
+    "mean_wait": 53.76736867928226,
+    "wait_q90": 171.9811630978831,
+    "autonomy": 0.8585
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.04809763101220388,
+    "auto_clear_miss": 0.04271356783919598,
+    "late_takeover_hazard": 0.005384063173007897,
+    "false_manoeuvre": 0.1892980437284235,
+    "takeover_rate": 0.117125,
+    "mrm_rate": 0.22625400213447172,
+    "mrm_per_hour": 38.60978607518154,
+    "utilisation": 0.761408373631427,
+    "mean_wait": 25.850472734844107,
+    "wait_q90": 85.14938610002427,
+    "autonomy": 0.882875
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.07774578362813657,
+    "auto_clear_miss": 0.06622788975730153,
+    "late_takeover_hazard": 0.011517893870835048,
+    "false_manoeuvre": 0.13575148141497576,
+    "takeover_rate": 0.1145,
+    "mrm_rate": 0.5425764192139738,
+    "mrm_per_hour": 90.51445131776049,
+    "utilisation": 0.9874017004265699,
+    "mean_wait": 105.26291918369523,
+    "wait_q90": 227.84512960911434,
+    "autonomy": 0.8855
+   }
+  },
+  "Threshold-0.5": {
+   "rough_sea": {
+    "unsafe_rate": 0.15978749489170413,
+    "auto_clear_miss": 0.15978749489170413,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.05366468575544751,
+    "takeover_rate": 0.0,
+    "mrm_rate": 0.0,
+    "mrm_per_hour": 0.0,
+    "utilisation": 0.0,
+    "mean_wait": 0.0,
+    "wait_q90": 0.0,
+    "autonomy": 1.0
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.2745664739884393,
+    "auto_clear_miss": 0.2745664739884393,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.06059519541054141,
+    "takeover_rate": 0.0,
+    "mrm_rate": 0.0,
+    "mrm_per_hour": 0.0,
+    "utilisation": 0.0,
+    "mean_wait": 0.0,
+    "wait_q90": 0.0,
+    "autonomy": 1.0
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.0923582995951417,
+    "auto_clear_miss": 0.0923582995951417,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.12080039525691699,
+    "takeover_rate": 0.0,
+    "mrm_rate": 0.0,
+    "mrm_per_hour": 0.0,
+    "utilisation": 0.0,
+    "mean_wait": 0.0,
+    "wait_q90": 0.0,
+    "autonomy": 1.0
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.1665470208183776,
+    "auto_clear_miss": 0.1665470208183776,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.07307249712313003,
+    "takeover_rate": 0.0,
+    "mrm_rate": 0.0,
+    "mrm_per_hour": 0.0,
+    "utilisation": 0.0,
+    "mean_wait": 0.0,
+    "wait_q90": 0.0,
+    "autonomy": 1.0
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.11805841217605924,
+    "auto_clear_miss": 0.11805841217605924,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.05297180822409769,
+    "takeover_rate": 0.0,
+    "mrm_rate": 0.0,
+    "mrm_per_hour": 0.0,
+    "utilisation": 0.0,
+    "mean_wait": 0.0,
+    "wait_q90": 0.0,
+    "autonomy": 1.0
+   }
+  },
+  "Selective-conf": {
+   "rough_sea": {
+    "unsafe_rate": 0.11851246424192889,
+    "auto_clear_miss": 0.06906416019615856,
+    "late_takeover_hazard": 0.04944830404577033,
+    "false_manoeuvre": 0.023951017468035296,
+    "takeover_rate": 0.141625,
+    "mrm_rate": 0.24271844660194175,
+    "mrm_per_hour": 50.08344891827794,
+    "utilisation": 0.8584724140420033,
+    "mean_wait": 31.805933657662965,
+    "wait_q90": 89.7154434292243,
+    "autonomy": 0.858375
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.2774566473988439,
+    "auto_clear_miss": 0.11684558216350124,
+    "late_takeover_hazard": 0.1606110652353427,
+    "false_manoeuvre": 0.01972032986733596,
+    "takeover_rate": 0.223375,
+    "mrm_rate": 0.45775041969781755,
+    "mrm_per_hour": 148.9754953278231,
+    "utilisation": 0.9992474119787572,
+    "mean_wait": 72.2427776707566,
+    "wait_q90": 130.1340413747059,
+    "autonomy": 0.776625
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.0847672064777328,
+    "auto_clear_miss": 0.03744939271255061,
+    "late_takeover_hazard": 0.04731781376518219,
+    "false_manoeuvre": 0.06299407114624506,
+    "takeover_rate": 0.178,
+    "mrm_rate": 0.39185393258426965,
+    "mrm_per_hour": 101.62387089599669,
+    "utilisation": 0.8914640961876191,
+    "mean_wait": 40.28244688037584,
+    "wait_q90": 99.43787584328956,
+    "autonomy": 0.8220000000000001
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.16798277099784636,
+    "auto_clear_miss": 0.06532663316582915,
+    "late_takeover_hazard": 0.10265613783201723,
+    "false_manoeuvre": 0.025124664365170694,
+    "takeover_rate": 0.210875,
+    "mrm_rate": 0.43805572021339656,
+    "mrm_per_hour": 134.58788636584507,
+    "utilisation": 0.9737872314820571,
+    "mean_wait": 52.66959950832755,
+    "wait_q90": 120.1279296875,
+    "autonomy": 0.789125
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.16083916083916083,
+    "auto_clear_miss": 0.05676676264911559,
+    "late_takeover_hazard": 0.10407239819004525,
+    "false_manoeuvre": 0.024061770515352847,
+    "takeover_rate": 0.121875,
+    "mrm_rate": 0.558974358974359,
+    "mrm_per_hour": 99.25628967440537,
+    "utilisation": 0.9630261806264567,
+    "mean_wait": 71.36421611874157,
+    "wait_q90": 144.71987220019838,
+    "autonomy": 0.878125
+   }
+  },
+  "Ensemble-defer": {
+   "rough_sea": {
+    "unsafe_rate": 0.1634654679199019,
+    "auto_clear_miss": 0.06538618716796077,
+    "late_takeover_hazard": 0.09807928075194115,
+    "false_manoeuvre": 0.02467134882045741,
+    "takeover_rate": 0.187125,
+    "mrm_rate": 0.35671342685370744,
+    "mrm_per_hour": 97.25295171767425,
+    "utilisation": 0.9658861681936134,
+    "mean_wait": 62.11146714792551,
+    "wait_q90": 126.15291218877103,
+    "autonomy": 0.812875
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.3265895953757225,
+    "auto_clear_miss": 0.13542526837324526,
+    "late_takeover_hazard": 0.1911643270024773,
+    "false_manoeuvre": 0.026891358910003587,
+    "takeover_rate": 0.235625,
+    "mrm_rate": 0.5045092838196287,
+    "mrm_per_hour": 173.1976724410266,
+    "utilisation": 0.9994679544736607,
+    "mean_wait": 93.57201278343179,
+    "wait_q90": 169.48101098251936,
+    "autonomy": 0.764375
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.10222672064777327,
+    "auto_clear_miss": 0.0430161943319838,
+    "late_takeover_hazard": 0.05921052631578947,
+    "false_manoeuvre": 0.06744071146245059,
+    "takeover_rate": 0.203125,
+    "mrm_rate": 0.44553846153846155,
+    "mrm_per_hour": 131.85606187939354,
+    "utilisation": 0.9652011913346962,
+    "mean_wait": 51.582195437557246,
+    "wait_q90": 109.38709109650377,
+    "autonomy": 0.796875
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.4059583632447954,
+    "auto_clear_miss": 0.03409906676238335,
+    "late_takeover_hazard": 0.37185929648241206,
+    "false_manoeuvre": 0.012082853855005753,
+    "takeover_rate": 0.399625,
+    "mrm_rate": 0.6768845792930873,
+    "mrm_per_hour": 394.1112125787398,
+    "utilisation": 1.0083018428462278,
+    "mean_wait": 101.44290547043924,
+    "wait_q90": 179.16131692313067,
+    "autonomy": 0.600375
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.18222953517071164,
+    "auto_clear_miss": 0.062114356232003294,
+    "late_takeover_hazard": 0.12011517893870835,
+    "false_manoeuvre": 0.031423954031244386,
+    "takeover_rate": 0.13,
+    "mrm_rate": 0.6480769230769231,
+    "mrm_per_hour": 122.74998025788847,
+    "utilisation": 0.986450379290915,
+    "mean_wait": 84.95959430316154,
+    "wait_q90": 166.45916134181186,
+    "autonomy": 0.87
+   }
+  },
+  "SCRC-global": {
+   "rough_sea": {
+    "unsafe_rate": 0.0298324478953821,
+    "auto_clear_miss": 0.019207192480588477,
+    "late_takeover_hazard": 0.010625255414793625,
+    "false_manoeuvre": 0.10372771474878444,
+    "takeover_rate": 0.14825,
+    "mrm_rate": 0.2554806070826307,
+    "mrm_per_hour": 55.18285462632078,
+    "utilisation": 0.9072693495761766,
+    "mean_wait": 49.032142453104804,
+    "wait_q90": 126.92955938068508,
+    "autonomy": 0.85175
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.08670520231213873,
+    "auto_clear_miss": 0.01568951279933939,
+    "late_takeover_hazard": 0.07101568951279934,
+    "false_manoeuvre": 0.1539978486912872,
+    "takeover_rate": 0.243375,
+    "mrm_rate": 0.4930662557781202,
+    "mrm_per_hour": 174.8367671328975,
+    "utilisation": 1.011684044183659,
+    "mean_wait": 174.70114659327152,
+    "wait_q90": 248.05752541344776,
+    "autonomy": 0.756625
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.01568825910931174,
+    "auto_clear_miss": 0.011133603238866396,
+    "late_takeover_hazard": 0.004554655870445344,
+    "false_manoeuvre": 0.21566205533596838,
+    "takeover_rate": 0.1585,
+    "mrm_rate": 0.3146687697160883,
+    "mrm_per_hour": 72.66653133961053,
+    "utilisation": 0.9000172957737728,
+    "mean_wait": 45.209105166426454,
+    "wait_q90": 116.28832978360315,
+    "autonomy": 0.8415
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.034816941852117735,
+    "auto_clear_miss": 0.021177315147164394,
+    "late_takeover_hazard": 0.013639626704953339,
+    "false_manoeuvre": 0.14978902953586498,
+    "takeover_rate": 0.153875,
+    "mrm_rate": 0.30787977254264826,
+    "mrm_per_hour": 69.0240986910085,
+    "utilisation": 0.912900073578916,
+    "mean_wait": 52.19364215506906,
+    "wait_q90": 121.87301534014296,
+    "autonomy": 0.846125
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.03578774167009461,
+    "auto_clear_miss": 0.015220074043603456,
+    "late_takeover_hazard": 0.020567667626491155,
+    "false_manoeuvre": 0.09337403483569762,
+    "takeover_rate": 0.133875,
+    "mrm_rate": 0.6349206349206349,
+    "mrm_per_hour": 123.84271005246907,
+    "utilisation": 1.0042027268930949,
+    "mean_wait": 117.50365131377144,
+    "wait_q90": 202.00984338291346,
+    "autonomy": 0.866125
+   }
+  },
+  "LTT-help (RCIP-style)": {
+   "rough_sea": {
+    "unsafe_rate": 0.014303228442991417,
+    "auto_clear_miss": 0.011442582754393135,
+    "late_takeover_hazard": 0.0028606456885982836,
+    "false_manoeuvre": 0.19575004502070953,
+    "takeover_rate": 0.129,
+    "mrm_rate": 0.21511627906976744,
+    "mrm_per_hour": 40.43100239948255,
+    "utilisation": 0.8661502147477812,
+    "mean_wait": 55.032191160610616,
+    "wait_q90": 154.34357520810275,
+    "autonomy": 0.871
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.026424442609413706,
+    "auto_clear_miss": 0.004128819157720892,
+    "late_takeover_hazard": 0.022295623451692816,
+    "false_manoeuvre": 0.31283614198637505,
+    "takeover_rate": 0.18425,
+    "mrm_rate": 0.32971506105834464,
+    "mrm_per_hour": 88.51111336102937,
+    "utilisation": 1.0094810914474153,
+    "mean_wait": 177.63442365625434,
+    "wait_q90": 246.78988313590767,
+    "autonomy": 0.81575
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.0075910931174089065,
+    "auto_clear_miss": 0.005313765182186235,
+    "late_takeover_hazard": 0.002277327935222672,
+    "false_manoeuvre": 0.35696640316205536,
+    "takeover_rate": 0.1305,
+    "mrm_rate": 0.2557471264367816,
+    "mrm_per_hour": 48.626475858837125,
+    "utilisation": 0.8483423835487975,
+    "mean_wait": 41.33328893044795,
+    "wait_q90": 110.01684224687537,
+    "autonomy": 0.8694999999999999
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.020459440057430008,
+    "auto_clear_miss": 0.016511127063890883,
+    "late_takeover_hazard": 0.003948312993539124,
+    "false_manoeuvre": 0.262945914844649,
+    "takeover_rate": 0.111625,
+    "mrm_rate": 0.16573348264277715,
+    "mrm_per_hour": 26.954001599655033,
+    "utilisation": 0.7486050222115255,
+    "mean_wait": 34.93182151924967,
+    "wait_q90": 102.95072531681895,
+    "autonomy": 0.888375
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.01809954751131222,
+    "auto_clear_miss": 0.00904977375565611,
+    "late_takeover_hazard": 0.00904977375565611,
+    "false_manoeuvre": 0.17723110073621834,
+    "takeover_rate": 0.120875,
+    "mrm_rate": 0.546018614270941,
+    "mrm_per_hour": 96.16022192309363,
+    "utilisation": 1.0067205128344228,
+    "mean_wait": 122.13623104056303,
+    "wait_q90": 217.19697731050837,
+    "autonomy": 0.879125
+   }
+  },
+  "CORAL (ours)": {
+   "rough_sea": {
+    "unsafe_rate": 0.022067838169186758,
+    "auto_clear_miss": 0.0171638741315897,
+    "late_takeover_hazard": 0.004903964037597058,
+    "false_manoeuvre": 0.12515757248334233,
+    "takeover_rate": 0.14825,
+    "mrm_rate": 0.11129848229342328,
+    "mrm_per_hour": 24.040055480773407,
+    "utilisation": 0.7758016732550568,
+    "mean_wait": 25.65665562096754,
+    "wait_q90": 88.99239326943007,
+    "autonomy": 0.85175
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.06523534269199009,
+    "auto_clear_miss": 0.013212221304706853,
+    "late_takeover_hazard": 0.05202312138728324,
+    "false_manoeuvre": 0.18949444245249195,
+    "takeover_rate": 0.234875,
+    "mrm_rate": 0.31080361894624803,
+    "mrm_per_hour": 106.35903333917932,
+    "utilisation": 1.0089388959760757,
+    "mean_wait": 169.1302271543081,
+    "wait_q90": 252.56835426204344,
+    "autonomy": 0.765125
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.01062753036437247,
+    "auto_clear_miss": 0.010374493927125507,
+    "late_takeover_hazard": 0.00025303643724696357,
+    "false_manoeuvre": 0.2475296442687747,
+    "takeover_rate": 0.14925,
+    "mrm_rate": 0.15159128978224456,
+    "mrm_per_hour": 32.964015469848384,
+    "utilisation": 0.7145040265389918,
+    "mean_wait": 12.7123215081555,
+    "wait_q90": 37.44726197564269,
+    "autonomy": 0.85075
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.021177315147164394,
+    "auto_clear_miss": 0.017946877243359655,
+    "late_takeover_hazard": 0.003230437903804738,
+    "false_manoeuvre": 0.1925584963559647,
+    "takeover_rate": 0.146625,
+    "mrm_rate": 0.09633418584825235,
+    "mrm_per_hour": 20.57974446460148,
+    "utilisation": 0.7252062581871058,
+    "mean_wait": 17.129071810549895,
+    "wait_q90": 52.33491557322617,
+    "autonomy": 0.853375
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.017688194158782394,
+    "auto_clear_miss": 0.01563142739613328,
+    "late_takeover_hazard": 0.0020567667626491155,
+    "false_manoeuvre": 0.1664571736397917,
+    "takeover_rate": 0.0805,
+    "mrm_rate": 0.14751552795031056,
+    "mrm_per_hour": 17.30155508085965,
+    "utilisation": 0.5813425682169493,
+    "mean_wait": 14.615668699839095,
+    "wait_q90": 45.01228639237982,
+    "autonomy": 0.9195
+   }
+  },
+  "CORAL-L (ours)": {
+   "rough_sea": {
+    "unsafe_rate": 0.020024519820187985,
+    "auto_clear_miss": 0.0171638741315897,
+    "late_takeover_hazard": 0.0028606456885982836,
+    "false_manoeuvre": 0.1292994777597695,
+    "takeover_rate": 0.145375,
+    "mrm_rate": 0.10404127257093723,
+    "mrm_per_hour": 22.03671752404229,
+    "utilisation": 0.6936391672540609,
+    "mean_wait": 8.981081300666013,
+    "wait_q90": 26.94574404216036,
+    "autonomy": 0.854625
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.05615194054500413,
+    "auto_clear_miss": 0.013212221304706853,
+    "late_takeover_hazard": 0.042939719240297276,
+    "false_manoeuvre": 0.1937970598780925,
+    "takeover_rate": 0.23175,
+    "mrm_rate": 0.2588996763754045,
+    "mrm_per_hour": 87.41838356644875,
+    "utilisation": 1.006184153630668,
+    "mean_wait": 153.75773904109278,
+    "wait_q90": 249.44765563740194,
+    "autonomy": 0.76825
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.01062753036437247,
+    "auto_clear_miss": 0.010374493927125507,
+    "late_takeover_hazard": 0.00025303643724696357,
+    "false_manoeuvre": 0.25,
+    "takeover_rate": 0.147875,
+    "mrm_rate": 0.14877430262045646,
+    "mrm_per_hour": 32.05340730769788,
+    "utilisation": 0.6800293113844703,
+    "mean_wait": 10.111842047448974,
+    "wait_q90": 29.447432755036786,
+    "autonomy": 0.852125
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.020459440057430008,
+    "auto_clear_miss": 0.017946877243359655,
+    "late_takeover_hazard": 0.002512562814070352,
+    "false_manoeuvre": 0.1940928270042194,
+    "takeover_rate": 0.145625,
+    "mrm_rate": 0.08927038626609442,
+    "mrm_per_hour": 18.940649772730566,
+    "utilisation": 0.7026125503725054,
+    "mean_wait": 14.204790548085043,
+    "wait_q90": 43.633727824102074,
+    "autonomy": 0.854375
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.016454134101192924,
+    "auto_clear_miss": 0.01563142739613328,
+    "late_takeover_hazard": 0.0008227067050596463,
+    "false_manoeuvre": 0.1748967498653259,
+    "takeover_rate": 0.07425,
+    "mrm_rate": 0.09932659932659933,
+    "mrm_per_hour": 10.745176313375994,
+    "utilisation": 0.4050396354566979,
+    "mean_wait": 3.0947678154587166,
+    "wait_q90": 9.093546417624022,
+    "autonomy": 0.92575
+   }
+  },
+  "w/o epistemic inflation": {
+   "rough_sea": {
+    "unsafe_rate": 0.020841847159787496,
+    "auto_clear_miss": 0.0171638741315897,
+    "late_takeover_hazard": 0.0036779730281977932,
+    "false_manoeuvre": 0.12605798667386997,
+    "takeover_rate": 0.149,
+    "mrm_rate": 0.11325503355704698,
+    "mrm_per_hour": 24.586420378063714,
+    "utilisation": 0.7680230753673288,
+    "mean_wait": 19.222457577995176,
+    "wait_q90": 59.599012917526,
+    "autonomy": 0.851
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.053674649050371594,
+    "auto_clear_miss": 0.012799339388934764,
+    "late_takeover_hazard": 0.04087530966143683,
+    "false_manoeuvre": 0.20204374327716026,
+    "takeover_rate": 0.225625,
+    "mrm_rate": 0.2626038781163435,
+    "mrm_per_hour": 86.32565377186815,
+    "utilisation": 1.0050055735069534,
+    "mean_wait": 153.31361207899795,
+    "wait_q90": 249.67934272206404,
+    "autonomy": 0.774375
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.010374493927125507,
+    "auto_clear_miss": 0.009362348178137652,
+    "late_takeover_hazard": 0.0010121457489878543,
+    "false_manoeuvre": 0.2566699604743083,
+    "takeover_rate": 0.151,
+    "mrm_rate": 0.15894039735099338,
+    "mrm_per_hour": 34.96735342657951,
+    "utilisation": 0.7565462297662771,
+    "mean_wait": 18.14280248398027,
+    "wait_q90": 56.62502887921144,
+    "autonomy": 0.849
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.022254127781765973,
+    "auto_clear_miss": 0.019023689877961235,
+    "late_takeover_hazard": 0.003230437903804738,
+    "false_manoeuvre": 0.1781741465285769,
+    "takeover_rate": 0.148625,
+    "mrm_rate": 0.11858704793944491,
+    "mrm_per_hour": 25.679150172644324,
+    "utilisation": 0.7438990611871382,
+    "mean_wait": 21.889065461564854,
+    "wait_q90": 69.31907863801635,
+    "autonomy": 0.851375
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.015220074043603456,
+    "auto_clear_miss": 0.012751953928424516,
+    "late_takeover_hazard": 0.0024681201151789387,
+    "false_manoeuvre": 0.16430238822050638,
+    "takeover_rate": 0.08625,
+    "mrm_rate": 0.16376811594202897,
+    "mrm_per_hour": 20.57974446460148,
+    "utilisation": 0.6568799464856543,
+    "mean_wait": 16.94368901012694,
+    "wait_q90": 57.825588115024544,
+    "autonomy": 0.9137500000000001
+   }
+  },
+  "w/o link stratification": {
+   "rough_sea": {
+    "unsafe_rate": 0.024111156518185534,
+    "auto_clear_miss": 0.018389865140988965,
+    "late_takeover_hazard": 0.005721291377196567,
+    "false_manoeuvre": 0.11705384476859355,
+    "takeover_rate": 0.1475,
+    "mrm_rate": 0.11440677966101695,
+    "mrm_per_hour": 24.586420378063714,
+    "utilisation": 0.7700159051899776,
+    "mean_wait": 23.585440210535953,
+    "wait_q90": 82.1247390849314,
+    "autonomy": 0.8525
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.07431874483897605,
+    "auto_clear_miss": 0.014450867052023121,
+    "late_takeover_hazard": 0.05986787778695293,
+    "false_manoeuvre": 0.17551093581929006,
+    "takeover_rate": 0.237875,
+    "mrm_rate": 0.3221229637414609,
+    "mrm_per_hour": 111.64056067965227,
+    "utilisation": 1.007763103698429,
+    "mean_wait": 165.94853439944092,
+    "wait_q90": 253.00823400591617,
+    "autonomy": 0.7621249999999999
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.011639676113360324,
+    "auto_clear_miss": 0.011133603238866396,
+    "late_takeover_hazard": 0.0005060728744939271,
+    "false_manoeuvre": 0.2317193675889328,
+    "takeover_rate": 0.151375,
+    "mrm_rate": 0.15606936416184972,
+    "mrm_per_hour": 34.4209885292892,
+    "utilisation": 0.7403804919510015,
+    "mean_wait": 14.408679173817166,
+    "wait_q90": 42.03728752216102,
+    "autonomy": 0.848625
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.02189519023689878,
+    "auto_clear_miss": 0.01830581478822685,
+    "late_takeover_hazard": 0.003589375448671931,
+    "false_manoeuvre": 0.17990026850786345,
+    "takeover_rate": 0.1495,
+    "mrm_rate": 0.10953177257525083,
+    "mrm_per_hour": 23.857933848343308,
+    "utilisation": 0.7296777607263703,
+    "mean_wait": 18.31857234280794,
+    "wait_q90": 53.338477404754485,
+    "autonomy": 0.8505
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.01851090086384204,
+    "auto_clear_miss": 0.016454134101192924,
+    "late_takeover_hazard": 0.0020567667626491155,
+    "false_manoeuvre": 0.16537978093014905,
+    "takeover_rate": 0.0795,
+    "mrm_rate": 0.14465408805031446,
+    "mrm_per_hour": 16.755190183569347,
+    "utilisation": 0.5742350492878552,
+    "mean_wait": 13.879770572479558,
+    "wait_q90": 40.39791243785021,
+    "autonomy": 0.9205
+   }
+  },
+  "w/o workload budget": {
+   "rough_sea": {
+    "unsafe_rate": 0.02656313853698406,
+    "auto_clear_miss": 0.0171638741315897,
+    "late_takeover_hazard": 0.00939926440539436,
+    "false_manoeuvre": 0.11849450747343779,
+    "takeover_rate": 0.149625,
+    "mrm_rate": 0.20634920634920634,
+    "mrm_per_hour": 44.98404321023509,
+    "utilisation": 0.9617722777918295,
+    "mean_wait": 78.03344830340207,
+    "wait_q90": 198.34162365037915,
+    "autonomy": 0.850375
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.09000825763831544,
+    "auto_clear_miss": 0.013212221304706853,
+    "late_takeover_hazard": 0.07679603633360858,
+    "false_manoeuvre": 0.16977411258515596,
+    "takeover_rate": 0.24925,
+    "mrm_rate": 0.5907723169508525,
+    "mrm_per_hour": 214.53928300265966,
+    "utilisation": 1.0119680474165047,
+    "mean_wait": 194.1377702255339,
+    "wait_q90": 260.29646960634693,
+    "autonomy": 0.75075
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.01568825910931174,
+    "auto_clear_miss": 0.010374493927125507,
+    "late_takeover_hazard": 0.005313765182186235,
+    "false_manoeuvre": 0.23468379446640317,
+    "takeover_rate": 0.155625,
+    "mrm_rate": 0.26827309236947794,
+    "mrm_per_hour": 60.82862523165393,
+    "utilisation": 0.9272941065860066,
+    "mean_wait": 63.03738555980832,
+    "wait_q90": 184.70588303881925,
+    "autonomy": 0.844375
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.03158650394831299,
+    "auto_clear_miss": 0.017946877243359655,
+    "late_takeover_hazard": 0.013639626704953339,
+    "false_manoeuvre": 0.189873417721519,
+    "takeover_rate": 0.146375,
+    "mrm_rate": 0.21947053800170793,
+    "mrm_per_hour": 46.805259534536106,
+    "utilisation": 0.9373780758162312,
+    "mean_wait": 79.59433255403762,
+    "wait_q90": 206.21146188266084,
+    "autonomy": 0.853625
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.03619909502262444,
+    "auto_clear_miss": 0.01563142739613328,
+    "late_takeover_hazard": 0.020567667626491155,
+    "false_manoeuvre": 0.09965882564194649,
+    "takeover_rate": 0.13375,
+    "mrm_rate": 0.597196261682243,
+    "mrm_per_hour": 116.37572312283491,
+    "utilisation": 1.0051338680876678,
+    "mean_wait": 132.15639417903336,
+    "wait_q90": 242.72753384784528,
+    "autonomy": 0.86625
+   }
+  },
+  "w/o urgency queue": {
+   "rough_sea": {
+    "unsafe_rate": 0.022067838169186758,
+    "auto_clear_miss": 0.0171638741315897,
+    "late_takeover_hazard": 0.004903964037597058,
+    "false_manoeuvre": 0.12515757248334233,
+    "takeover_rate": 0.14825,
+    "mrm_rate": 0.14839797639123103,
+    "mrm_per_hour": 32.05340730769788,
+    "utilisation": 0.7545968910774042,
+    "mean_wait": 18.44107644384412,
+    "wait_q90": 59.50283627017325,
+    "autonomy": 0.85175
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.04459124690338563,
+    "auto_clear_miss": 0.013212221304706853,
+    "late_takeover_hazard": 0.03137902559867878,
+    "false_manoeuvre": 0.18949444245249195,
+    "takeover_rate": 0.234875,
+    "mrm_rate": 0.24268227780734433,
+    "mrm_per_hour": 83.04746438812633,
+    "utilisation": 1.003208783242051,
+    "mean_wait": 117.13717427577592,
+    "wait_q90": 212.83677942184704,
+    "autonomy": 0.765125
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.01138663967611336,
+    "auto_clear_miss": 0.010374493927125507,
+    "late_takeover_hazard": 0.0010121457489878543,
+    "false_manoeuvre": 0.2475296442687747,
+    "takeover_rate": 0.14925,
+    "mrm_rate": 0.16750418760469013,
+    "mrm_per_hour": 36.42432648602032,
+    "utilisation": 0.7001832841495206,
+    "mean_wait": 10.77460933789596,
+    "wait_q90": 31.907957785393243,
+    "autonomy": 0.85075
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.0208183776022972,
+    "auto_clear_miss": 0.017946877243359655,
+    "late_takeover_hazard": 0.002871500358937545,
+    "false_manoeuvre": 0.1925584963559647,
+    "takeover_rate": 0.146625,
+    "mrm_rate": 0.12190963341858482,
+    "mrm_per_hour": 26.043393437504527,
+    "utilisation": 0.7097259912558307,
+    "mean_wait": 13.828764561790056,
+    "wait_q90": 41.500235681834596,
+    "autonomy": 0.853375
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.017688194158782394,
+    "auto_clear_miss": 0.01563142739613328,
+    "late_takeover_hazard": 0.0020567667626491155,
+    "false_manoeuvre": 0.1664571736397917,
+    "takeover_rate": 0.0805,
+    "mrm_rate": 0.15993788819875776,
+    "mrm_per_hour": 18.758528140300463,
+    "utilisation": 0.5761750011476894,
+    "mean_wait": 13.82925966690766,
+    "wait_q90": 45.278479096243,
+    "autonomy": 0.9195
+   }
+  },
+  "w/o attention (MLP-set)": {
+   "rough_sea": {
+    "unsafe_rate": 0.01879852881078872,
+    "auto_clear_miss": 0.015529219452390683,
+    "late_takeover_hazard": 0.0032693093583980384,
+    "false_manoeuvre": 0.1323608860075635,
+    "takeover_rate": 0.14675,
+    "mrm_rate": 0.11158432708688246,
+    "mrm_per_hour": 23.857933848343308,
+    "utilisation": 0.754336444429358,
+    "mean_wait": 18.535730199677392,
+    "wait_q90": 59.68761308082395,
+    "autonomy": 0.8532500000000001
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.06647398843930635,
+    "auto_clear_miss": 0.008670520231213872,
+    "late_takeover_hazard": 0.057803468208092484,
+    "false_manoeuvre": 0.20652563642882754,
+    "takeover_rate": 0.240125,
+    "mrm_rate": 0.3420093701197293,
+    "mrm_per_hour": 119.65391250657675,
+    "utilisation": 1.0085823056876468,
+    "mean_wait": 173.5623988487935,
+    "wait_q90": 254.8616127383052,
+    "autonomy": 0.759875
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.01062753036437247,
+    "auto_clear_miss": 0.007338056680161943,
+    "late_takeover_hazard": 0.003289473684210526,
+    "false_manoeuvre": 0.2608695652173913,
+    "takeover_rate": 0.169,
+    "mrm_rate": 0.1900887573964497,
+    "mrm_per_hour": 46.805259534536106,
+    "utilisation": 0.839304693323314,
+    "mean_wait": 37.53360241655804,
+    "wait_q90": 136.94590401617933,
+    "autonomy": 0.831
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.024766690595836326,
+    "auto_clear_miss": 0.021536252692031587,
+    "late_takeover_hazard": 0.003230437903804738,
+    "false_manoeuvre": 0.1797084771768316,
+    "takeover_rate": 0.136,
+    "mrm_rate": 0.125,
+    "mrm_per_hour": 24.768542010493814,
+    "utilisation": 0.6593938017977735,
+    "mean_wait": 11.07142909951463,
+    "wait_q90": 33.41454798988362,
+    "autonomy": 0.864
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.01563142739613328,
+    "auto_clear_miss": 0.013574660633484163,
+    "late_takeover_hazard": 0.0020567667626491155,
+    "false_manoeuvre": 0.19051894415514456,
+    "takeover_rate": 0.081625,
+    "mrm_rate": 0.15926493108728942,
+    "mrm_per_hour": 18.940649772730566,
+    "utilisation": 0.6279651068860602,
+    "mean_wait": 18.70369344439616,
+    "wait_q90": 58.74876932557491,
+    "autonomy": 0.9183749999999999
+   }
+  },
+  "w/o context query": {
+   "rough_sea": {
+    "unsafe_rate": 0.020841847159787496,
+    "auto_clear_miss": 0.017572537801389457,
+    "late_takeover_hazard": 0.0032693093583980384,
+    "false_manoeuvre": 0.12983972627408608,
+    "takeover_rate": 0.14225,
+    "mrm_rate": 0.11511423550087874,
+    "mrm_per_hour": 23.857933848343308,
+    "utilisation": 0.7322689009565954,
+    "mean_wait": 16.001859888827337,
+    "wait_q90": 45.44293922100242,
+    "autonomy": 0.85775
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.058629232039636665,
+    "auto_clear_miss": 0.008670520231213872,
+    "late_takeover_hazard": 0.04995871180842279,
+    "false_manoeuvre": 0.20258157045536035,
+    "takeover_rate": 0.23825,
+    "mrm_rate": 0.32948583420776495,
+    "mrm_per_hour": 114.3723851661038,
+    "utilisation": 1.010538295195386,
+    "mean_wait": 174.75349544584094,
+    "wait_q90": 254.59062863793253,
+    "autonomy": 0.76175
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.01138663967611336,
+    "auto_clear_miss": 0.010880566801619434,
+    "late_takeover_hazard": 0.0005060728744939271,
+    "false_manoeuvre": 0.24357707509881424,
+    "takeover_rate": 0.144375,
+    "mrm_rate": 0.15064935064935064,
+    "mrm_per_hour": 31.689164042837675,
+    "utilisation": 0.6907587449028557,
+    "mean_wait": 11.780821553716978,
+    "wait_q90": 36.058563859610004,
+    "autonomy": 0.855625
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.01974156496769562,
+    "auto_clear_miss": 0.016511127063890883,
+    "late_takeover_hazard": 0.003230437903804738,
+    "false_manoeuvre": 0.22324510932105868,
+    "takeover_rate": 0.143625,
+    "mrm_rate": 0.08703220191470844,
+    "mrm_per_hour": 18.21216324301016,
+    "utilisation": 0.7201497868101274,
+    "mean_wait": 20.47012704727844,
+    "wait_q90": 70.1927996330782,
+    "autonomy": 0.856375
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.01727684080625257,
+    "auto_clear_miss": 0.016042780748663103,
+    "late_takeover_hazard": 0.0012340600575894694,
+    "false_manoeuvre": 0.1630454300592566,
+    "takeover_rate": 0.08175,
+    "mrm_rate": 0.1651376146788991,
+    "mrm_per_hour": 19.669136302450973,
+    "utilisation": 0.6147701135307466,
+    "mean_wait": 17.33414594441015,
+    "wait_q90": 48.946614242923,
+    "autonomy": 0.91825
+   }
+  },
+  "w/o ensemble (single)": {
+   "rough_sea": {
+    "unsafe_rate": 0.023702492848385777,
+    "auto_clear_miss": 0.01961585615038823,
+    "late_takeover_hazard": 0.004086636697997548,
+    "false_manoeuvre": 0.12461732396902575,
+    "takeover_rate": 0.144625,
+    "mrm_rate": 0.11668107173725151,
+    "mrm_per_hour": 24.586420378063714,
+    "utilisation": 0.742370744265378,
+    "mean_wait": 16.229386443837676,
+    "wait_q90": 48.469271446601944,
+    "autonomy": 0.855375
+   },
+   "ais_dropout": {
+    "unsafe_rate": 0.05284888521882741,
+    "auto_clear_miss": 0.01486374896779521,
+    "late_takeover_hazard": 0.037985136251032205,
+    "false_manoeuvre": 0.2054499820724274,
+    "takeover_rate": 0.216,
+    "mrm_rate": 0.2193287037037037,
+    "mrm_per_hour": 69.0240986910085,
+    "utilisation": 1.0005207678339152,
+    "mean_wait": 140.26878614186833,
+    "wait_q90": 243.0125943702095,
+    "autonomy": 0.784
+   },
+   "dense_traffic": {
+    "unsafe_rate": 0.011133603238866396,
+    "auto_clear_miss": 0.009109311740890687,
+    "late_takeover_hazard": 0.0020242914979757085,
+    "false_manoeuvre": 0.2574110671936759,
+    "takeover_rate": 0.156125,
+    "mrm_rate": 0.15532425940752603,
+    "mrm_per_hour": 35.33159669143971,
+    "utilisation": 0.7772668011365719,
+    "mean_wait": 24.24738073516389,
+    "wait_q90": 82.14893692835467,
+    "autonomy": 0.8438749999999999
+   },
+   "high_speed_craft": {
+    "unsafe_rate": 0.02907394113424264,
+    "auto_clear_miss": 0.025843503230437905,
+    "late_takeover_hazard": 0.003230437903804738,
+    "false_manoeuvre": 0.14767932489451477,
+    "takeover_rate": 0.133,
+    "mrm_rate": 0.143796992481203,
+    "mrm_per_hour": 27.864609761805543,
+    "utilisation": 0.678898500066429,
+    "mean_wait": 14.078310613000149,
+    "wait_q90": 41.00999652944561,
+    "autonomy": 0.867
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.018922254216371864,
+    "auto_clear_miss": 0.016042780748663103,
+    "late_takeover_hazard": 0.002879473467708762,
+    "false_manoeuvre": 0.16214760280122104,
+    "takeover_rate": 0.0855,
+    "mrm_rate": 0.18859649122807018,
+    "mrm_per_hour": 23.493690583483104,
+    "utilisation": 0.7020876169003121,
+    "mean_wait": 29.38007796443024,
+    "wait_q90": 93.98642555392126,
+    "autonomy": 0.9145
+   }
+  }
+ },
+ "sweeps": {
+  "alpha": {
+   "0.005": {
+    "miss": 0.0056179775280898875,
+    "takeover": 0.1346,
+    "false_man": 0.34822196730714083
+   },
+   "0.01": {
+    "miss": 0.011566424322538004,
+    "takeover": 0.14205,
+    "false_man": 0.18160309721823917
+   },
+   "0.02": {
+    "miss": 0.01668869795109055,
+    "takeover": 0.1322,
+    "false_man": 0.12804703183252078
+   },
+   "0.05": {
+    "miss": 0.0461004626569729,
+    "takeover": 0.13545,
+    "false_man": 0.04022082018927445
+   },
+   "0.1": {
+    "miss": 0.10095836087243887,
+    "takeover": 0.1311,
+    "false_man": 0.021938629194149697
+   }
+  },
+  "kappa": {
+   "0.0": {
+    "id": {
+     "unsafe_rate": 0.017184401850627893,
+     "auto_clear_miss": 0.01520158625247852,
+     "late_takeover_hazard": 0.0019828155981493722,
+     "false_manoeuvre": 0.13392601089761974,
+     "takeover_rate": 0.136,
+     "mrm_rate": 0.12095588235294118,
+     "mrm_per_hour": 23.681729227707788,
+     "utilisation": 0.6971744101423663,
+     "mean_wait": 16.48446556654626,
+     "wait_q90": 53.636839695725016,
+     "autonomy": 0.864
+    },
+    "rough_sea": {
+     "unsafe_rate": 0.020841847159787496,
+     "auto_clear_miss": 0.0171638741315897,
+     "late_takeover_hazard": 0.0036779730281977932,
+     "false_manoeuvre": 0.12605798667386997,
+     "takeover_rate": 0.149,
+     "mrm_rate": 0.11325503355704698,
+     "mrm_per_hour": 24.586420378063714,
+     "utilisation": 0.7680230753673288,
+     "mean_wait": 19.222457577995176,
+     "wait_q90": 59.599012917526,
+     "autonomy": 0.851
+    }
+   },
+   "0.5": {
+    "id": {
+     "unsafe_rate": 0.017184401850627893,
+     "auto_clear_miss": 0.015862524785194978,
+     "late_takeover_hazard": 0.0013218770654329147,
+     "false_manoeuvre": 0.1334241468310869,
+     "takeover_rate": 0.1364,
+     "mrm_rate": 0.1158357771260997,
+     "mrm_per_hour": 22.745977008983772,
+     "utilisation": 0.6846649249450091,
+     "mean_wait": 15.347321318651096,
+     "wait_q90": 48.85075001085602,
+     "autonomy": 0.8636
+    },
+    "rough_sea": {
+     "unsafe_rate": 0.020024519820187985,
+     "auto_clear_miss": 0.016346546791990192,
+     "late_takeover_hazard": 0.0036779730281977932,
+     "false_manoeuvre": 0.12695840086439764,
+     "takeover_rate": 0.152625,
+     "mrm_rate": 0.1162981162981163,
+     "mrm_per_hour": 25.861271805074423,
+     "utilisation": 0.7977566467131602,
+     "mean_wait": 25.61490170975744,
+     "wait_q90": 88.27761626254141,
+     "autonomy": 0.847375
+    }
+   },
+   "1.0": {
+    "id": {
+     "unsafe_rate": 0.018010575016523464,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.0013218770654329147,
+     "false_manoeuvre": 0.12804703183252078,
+     "takeover_rate": 0.1322,
+     "mrm_rate": 0.1115733736762481,
+     "mrm_per_hour": 21.234377271044977,
+     "utilisation": 0.6561538113896819,
+     "mean_wait": 11.717608618068978,
+     "wait_q90": 34.72752017346176,
+     "autonomy": 0.8678
+    },
+    "rough_sea": {
+     "unsafe_rate": 0.022067838169186758,
+     "auto_clear_miss": 0.0171638741315897,
+     "late_takeover_hazard": 0.004903964037597058,
+     "false_manoeuvre": 0.12515757248334233,
+     "takeover_rate": 0.14825,
+     "mrm_rate": 0.11129848229342328,
+     "mrm_per_hour": 24.040055480773407,
+     "utilisation": 0.7758016732550568,
+     "mean_wait": 25.65665562096754,
+     "wait_q90": 88.99239326943007,
+     "autonomy": 0.85175
+    }
+   },
+   "2.0": {
+    "id": {
+     "unsafe_rate": 0.01900198281559815,
+     "auto_clear_miss": 0.018175809649702578,
+     "late_takeover_hazard": 0.0008261731658955717,
+     "false_manoeuvre": 0.12274161170060224,
+     "takeover_rate": 0.1336,
+     "mrm_rate": 0.11152694610778444,
+     "mrm_per_hour": 21.45032009075052,
+     "utilisation": 0.6659496024234077,
+     "mean_wait": 13.47595533427911,
+     "wait_q90": 42.443099777230245,
+     "autonomy": 0.8664000000000001
+    },
+    "rough_sea": {
+     "unsafe_rate": 0.02125051082958725,
+     "auto_clear_miss": 0.016755210461789946,
+     "late_takeover_hazard": 0.004495300367797303,
+     "false_manoeuvre": 0.12533765532144786,
+     "takeover_rate": 0.147375,
+     "mrm_rate": 0.11280746395250212,
+     "mrm_per_hour": 24.22217711320351,
+     "utilisation": 0.764676901620032,
+     "mean_wait": 18.602340635593176,
+     "wait_q90": 59.73270149042462,
+     "autonomy": 0.852625
+    }
+   },
+   "3.0": {
+    "id": {
+     "unsafe_rate": 0.019497686715135493,
+     "auto_clear_miss": 0.01834104428288169,
+     "late_takeover_hazard": 0.0011566424322538005,
+     "false_manoeuvre": 0.11843991970174936,
+     "takeover_rate": 0.13575,
+     "mrm_rate": 0.11528545119705341,
+     "mrm_per_hour": 22.53003418927823,
+     "utilisation": 0.6819482783778801,
+     "mean_wait": 14.245300023691508,
+     "wait_q90": 43.968041789751425,
+     "autonomy": 0.86425
+    },
+    "rough_sea": {
+     "unsafe_rate": 0.021659174499387004,
+     "auto_clear_miss": 0.0171638741315897,
+     "late_takeover_hazard": 0.004495300367797303,
+     "false_manoeuvre": 0.12443724113092022,
+     "takeover_rate": 0.1465,
+     "mrm_rate": 0.11177474402730375,
+     "mrm_per_hour": 23.857933848343308,
+     "utilisation": 0.7565366640118926,
+     "mean_wait": 18.681826907587116,
+     "wait_q90": 60.79860615846935,
+     "autonomy": 0.8535
+    }
+   }
+  },
+  "gamma": {
+   "0.0025": {
+    "unsafe_rate": 0.017184401850627893,
+    "auto_clear_miss": 0.01668869795109055,
+    "late_takeover_hazard": 0.0004957038995373431,
+    "false_manoeuvre": 0.1355032979638658,
+    "takeover_rate": 0.1264,
+    "mrm_rate": 0.10522151898734178,
+    "mrm_per_hour": 19.146930013891403,
+    "utilisation": 0.5839885007754283,
+    "mean_wait": 6.248521587088557,
+    "wait_q90": 19.948814374216095,
+    "autonomy": 0.8735999999999999
+   },
+   "0.005": {
+    "unsafe_rate": 0.01751487111698612,
+    "auto_clear_miss": 0.01668869795109055,
+    "late_takeover_hazard": 0.0008261731658955717,
+    "false_manoeuvre": 0.13005448809865214,
+    "takeover_rate": 0.13075,
+    "mrm_rate": 0.10630975143403441,
+    "mrm_per_hour": 20.01070129271357,
+    "utilisation": 0.6168477767528935,
+    "mean_wait": 8.160131805164603,
+    "wait_q90": 23.855454717299285,
+    "autonomy": 0.86925
+   },
+   "0.01": {
+    "unsafe_rate": 0.018010575016523464,
+    "auto_clear_miss": 0.01668869795109055,
+    "late_takeover_hazard": 0.0013218770654329147,
+    "false_manoeuvre": 0.12804703183252078,
+    "takeover_rate": 0.1322,
+    "mrm_rate": 0.1115733736762481,
+    "mrm_per_hour": 21.234377271044977,
+    "utilisation": 0.6561538113896819,
+    "mean_wait": 11.717608618068978,
+    "wait_q90": 34.72752017346176,
+    "autonomy": 0.8678
+   },
+   "0.02": {
+    "unsafe_rate": 0.018010575016523464,
+    "auto_clear_miss": 0.01668869795109055,
+    "late_takeover_hazard": 0.0013218770654329147,
+    "false_manoeuvre": 0.12804703183252078,
+    "takeover_rate": 0.1322,
+    "mrm_rate": 0.1115733736762481,
+    "mrm_per_hour": 21.234377271044977,
+    "utilisation": 0.6561538113896819,
+    "mean_wait": 11.717608618068978,
+    "wait_q90": 34.72752017346176,
+    "autonomy": 0.8678
+   }
+  },
+  "operators": {
+   "1": {
+    "workload": {
+     "unsafe_rate": 0.016853932584269662,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.00016523463317911433,
+     "false_manoeuvre": 0.204473759678807,
+     "takeover_rate": 0.06905,
+     "mrm_rate": 0.12816799420709632,
+     "mrm_per_hour": 12.60592629790772,
+     "utilisation": 0.6534695414559256,
+     "mean_wait": 29.411807567997748,
+     "wait_q90": 89.2641372680664,
+     "autonomy": 0.9309499999999999
+    },
+    "uniform": {
+     "unsafe_rate": 0.01933245208195638,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.0026437541308658294,
+     "false_manoeuvre": 0.20526240321193004,
+     "takeover_rate": 0.06875,
+     "mrm_rate": 0.2589090909090909,
+     "mrm_per_hour": 25.35429244098954,
+     "utilisation": 0.8042243791512194,
+     "mean_wait": 68.62904552296854,
+     "wait_q90": 203.3415897066666,
+     "autonomy": 0.93125
+    },
+    "lateness": {
+     "unsafe_rate": 0.016853932584269662,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.00016523463317911433,
+     "false_manoeuvre": 0.20540579294522512,
+     "takeover_rate": 0.0684,
+     "mrm_rate": 0.11257309941520467,
+     "mrm_per_hour": 10.967868078405587,
+     "utilisation": 0.622897816377868,
+     "mean_wait": 22.93214528789802,
+     "wait_q90": 69.14493883297291,
+     "autonomy": 0.9316
+    }
+   },
+   "2": {
+    "workload": {
+     "unsafe_rate": 0.017349636483807006,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.0006609385327164573,
+     "false_manoeuvre": 0.12804703183252078,
+     "takeover_rate": 0.1322,
+     "mrm_rate": 0.11081694402420575,
+     "mrm_per_hour": 20.867437318005436,
+     "utilisation": 0.645550744957466,
+     "mean_wait": 12.098181587365755,
+     "wait_q90": 38.07187490462184,
+     "autonomy": 0.8678
+    },
+    "uniform": {
+     "unsafe_rate": 0.02511566424322538,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.008426966292134831,
+     "false_manoeuvre": 0.12216805276742185,
+     "takeover_rate": 0.136,
+     "mrm_rate": 0.21029411764705883,
+     "mrm_per_hour": 40.73779571979218,
+     "utilisation": 0.8812623534717158,
+     "mean_wait": 58.44566631568972,
+     "wait_q90": 166.73330042062676,
+     "autonomy": 0.864
+    },
+    "lateness": {
+     "unsafe_rate": 0.017184401850627893,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.0004957038995373431,
+     "false_manoeuvre": 0.13005448809865214,
+     "takeover_rate": 0.13075,
+     "mrm_rate": 0.10630975143403441,
+     "mrm_per_hour": 19.799138479199694,
+     "utilisation": 0.6062878343538042,
+     "mean_wait": 7.929989617529523,
+     "wait_q90": 25.29449888805428,
+     "autonomy": 0.86925
+    }
+   },
+   "3": {
+    "workload": {
+     "unsafe_rate": 0.021480502313284865,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.0047918043621943155,
+     "false_manoeuvre": 0.06932893604817895,
+     "takeover_rate": 0.20365,
+     "mrm_rate": 0.10778296096243555,
+     "mrm_per_hour": 31.265546015714627,
+     "utilisation": 0.6784880433313861,
+     "mean_wait": 9.693395816131945,
+     "wait_q90": 25.720120563720414,
+     "autonomy": 0.79635
+    },
+    "uniform": {
+     "unsafe_rate": 0.03668208856576338,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.019993390614672837,
+     "false_manoeuvre": 0.05843131631775165,
+     "takeover_rate": 0.20475,
+     "mrm_rate": 0.18315018315018314,
+     "mrm_per_hour": 53.41494194028695,
+     "utilisation": 0.8916665454734913,
+     "mean_wait": 45.279620437943606,
+     "wait_q90": 145.9325690292564,
+     "autonomy": 0.79525
+    },
+    "lateness": {
+     "unsafe_rate": 0.016853932584269662,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.00016523463317911433,
+     "false_manoeuvre": 0.10273874390593633,
+     "takeover_rate": 0.15825,
+     "mrm_rate": 0.10078988941548184,
+     "mrm_per_hour": 22.719155305268714,
+     "utilisation": 0.5000887335945762,
+     "mean_wait": 2.448408969851482,
+     "wait_q90": 8.992590262136945,
+     "autonomy": 0.84175
+    }
+   },
+   "4": {
+    "workload": {
+     "unsafe_rate": 0.04015201586252479,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.023463317911434238,
+     "false_manoeuvre": 0.044235732721537135,
+     "takeover_rate": 0.2691,
+     "mrm_rate": 0.10460795243403939,
+     "mrm_per_hour": 40.09681641650874,
+     "utilisation": 0.6946039938028862,
+     "mean_wait": 6.519103307651249,
+     "wait_q90": 16.757974713109082,
+     "autonomy": 0.7309
+    },
+    "uniform": {
+     "unsafe_rate": 0.06460674157303371,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.04791804362194316,
+     "false_manoeuvre": 0.02882133639231431,
+     "takeover_rate": 0.27175,
+     "mrm_rate": 0.17276908923643056,
+     "mrm_per_hour": 66.87550730923925,
+     "utilisation": 0.8929529721336668,
+     "mean_wait": 34.9751553831177,
+     "wait_q90": 119.937803855663,
+     "autonomy": 0.7282500000000001
+    },
+    "lateness": {
+     "unsafe_rate": 0.017349636483807006,
+     "auto_clear_miss": 0.01668869795109055,
+     "late_takeover_hazard": 0.0006609385327164573,
+     "false_manoeuvre": 0.08825638084313163,
+     "takeover_rate": 0.17845,
+     "mrm_rate": 0.0947043989913141,
+     "mrm_per_hour": 24.07233383442265,
+     "utilisation": 0.420035691622015,
+     "mean_wait": 0.7184077694133132,
+     "wait_q90": 0.18751591327855147,
+     "autonomy": 0.82155
+    }
+   }
+  }
+ },
+ "group_validity": {
+  "CORAL (ours)": {
+   "0": 0.013506625891946993,
+   "1": 0.02442244224422442,
+   "2": 0.01794453507340946
+  },
+  "w/o link stratification": {
+   "0": 0.01580020387359837,
+   "1": 0.02442244224422442,
+   "2": 0.01794453507340946
+  }
+ },
+ "ood_detect": {
+  "rough_sea": 0.53750361875,
+  "ais_dropout": 0.6462378624999999,
+  "dense_traffic": 0.626274625,
+  "high_speed_craft": 0.646889075,
+  "link_degradation": 0.49552045
+ },
+ "budgets": {
+  "0": 0.16694124042987823,
+  "1": 0.09280040860176086,
+  "2": 0.02056320197880268
+ },
+ "matched_takeover_rate": 0.13333333333333333,
+ "ltt": {
+  "lo": 0.03,
+  "hi": 0.12,
+  "N": 3876,
+  "beta": 0.13410503507964314
+ },
+ "proxy": {
+  "te": {
+   "n_actual_late": 2,
+   "n_proxy": 20,
+   "caught": 2
+  },
+  "ais_dropout": {
+   "n_actual_late": 124,
+   "n_proxy": 27,
+   "caught": 20
+  }
+ },
+ "calsize": {
+  "250": {
+   "miss_mean": 0.00356906807666887,
+   "miss_sd": 0.006075543622116696,
+   "frac_above": 0.03333333333333333,
+   "lam_sd": [
+    0.05180233799957511,
+    0.0,
+    0.0
+   ],
+   "lam_mean": [
+    0.027533333333333333,
+    0.0,
+    0.0
+   ],
+   "per_group_mean": [
+    0.005504587155963302,
+    0.0,
+    0.0
+   ]
+  },
+  "500": {
+   "miss_mean": 0.009423881912315487,
+   "miss_sd": 0.009664035217702215,
+   "frac_above": 0.1,
+   "lam_sd": [
+    0.08192099174746902,
+    0.03301809688976974,
+    0.0
+   ],
+   "lam_mean": [
+    0.07036666666666667,
+    0.008116666666666666,
+    0.0
+   ],
+   "per_group_mean": [
+    0.013634046890927625,
+    0.002332233223322332,
+    0.0
+   ]
+  },
+  "1000": {
+   "miss_mean": 0.014612249394139678,
+   "miss_sd": 0.006448623657822173,
+   "frac_above": 0.13333333333333333,
+   "lam_sd": [
+    0.0634677542798966,
+    0.05794044116351051,
+    0.0
+   ],
+   "lam_mean": [
+    0.07555000000000002,
+    0.06038333333333334,
+    0.0
+   ],
+   "per_group_mean": [
+    0.014865783214407065,
+    0.019867986798679866,
+    0.0
+   ]
+  },
+  "2000": {
+   "miss_mean": 0.017217448777263715,
+   "miss_sd": 0.004194139771851104,
+   "frac_above": 0.13333333333333333,
+   "lam_sd": [
+    0.037835759834080544,
+    0.042904234445254166,
+    0.07806108007337731
+   ],
+   "lam_mean": [
+    0.06561666666666667,
+    0.0764,
+    0.09263333333333335
+   ],
+   "per_group_mean": [
+    0.013761467889908254,
+    0.02374037403740373,
+    0.023219140837411636
+   ]
+  },
+  "4000": {
+   "miss_mean": 0.01736615994712492,
+   "miss_sd": 0.0023984078790620514,
+   "frac_above": 0.1,
+   "lam_sd": [
+    0.02616183076332559,
+    0.02063152926954277,
+    0.03609189274923417
+   ],
+   "lam_mean": [
+    0.06831666666666666,
+    0.0727,
+    0.08581666666666664
+   ],
+   "per_group_mean": [
+    0.014424057084607542,
+    0.023762376237623752,
+    0.020391517128874385
+   ]
+  },
+  "6000": {
+   "miss_mean": 0.01668869795109055,
+   "miss_sd": 0.0,
+   "frac_above": 0.0,
+   "lam_sd": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "lam_mean": [
+    0.062,
+    0.07100000000000001,
+    0.075
+   ],
+   "per_group_mean": [
+    0.013506625891946993,
+    0.02442244224422442,
+    0.01794453507340946
+   ]
+  }
+ },
+ "thresholds_L": {
+  "0": 0.3985,
+  "1": 0.201,
+  "2": 0.075
+ },
+ "wait_q90_cal": 58.26431552922863,
+ "thresholds": {
+  "lo": {
+   "0": 0.062,
+   "1": 0.07100000000000001,
+   "2": 0.075
+  },
+  "hi": {
+   "0": 0.3985,
+   "1": 0.201,
+   "2": 0.0905
+  }
+ },
+ "online": {
+  "static": {
+   "roll": [
+    0.021806853582554516,
+    0.022082018927444796,
+    0.0219435736677116,
+    0.01904761904761905,
+    0.019230769230769232,
+    0.01592356687898089,
+    0.012658227848101266,
+    0.00949367088607595,
+    0.02,
+    0.02364864864864865,
+    0.02464788732394366,
+    0.0313588850174216,
+    0.01694915254237288,
+    0.02027027027027027,
+    0.0165016501650165,
+    0.010101010101010102,
+    0.017006802721088437,
+    0.0136986301369863,
+    0.020618556701030927,
+    0.029605263157894735,
+    0.025806451612903226,
+    0.023026315789473683,
+    0.0231023102310231,
+    0.027210884353741496,
+    0.027491408934707903,
+    0.032679738562091505,
+    0.03215434083601286,
+    0.01929260450160772,
+    0.012944983818770227,
+    0.010033444816053512,
+    0.0070921985815602835,
+    0.017543859649122806,
+    0.027210884353741496,
+    0.029801324503311258,
+    0.028391167192429023,
+    0.025078369905956112,
+    0.025477707006369428,
+    0.02857142857142857,
+    0.045307443365695796,
+    0.044444444444444446,
+    0.03785488958990536,
+    0.035830618892508145,
+    0.022653721682847898,
+    0.020066889632107024,
+    0.016722408026755852,
+    0.012944983818770227,
+    0.012698412698412698,
+    0.016891891891891893,
+    0.036303630363036306,
+    0.03389830508474576,
+    0.030508474576271188,
+    0.03115264797507788,
+    0.019230769230769232
+   ],
+   "miss_post": 0.025420254202542025,
+   "takeover_post": 0.261125,
+   "miss_pre": 0.02019650655021834,
+   "fleet_post": {
+    "unsafe_rate": 0.12751127511275112,
+    "auto_clear_miss": 0.025420254202542025,
+    "late_takeover_hazard": 0.10209102091020911,
+    "false_manoeuvre": 0.17658694479410178,
+    "takeover_rate": 0.261125,
+    "mrm_rate": 0.4298707515557683,
+    "mrm_per_hour": 161.28303158020753,
+    "utilisation": 1.01047471077829,
+    "mean_wait": 179.07695633633483,
+    "wait_q90": 258.0660056750985,
+    "autonomy": 0.738875
+   },
+   "bounds": {
+    "0": {
+     "T_haz": 0,
+     "upd_err": null,
+     "bound_lo": 51.0,
+     "decision_miss": null,
+     "takeover": 0.25937227550130776,
+     "beta": 0.16694124042987823,
+     "bound_hi": 0.05459895379250218
+    },
+    "1": {
+     "T_haz": 0,
+     "upd_err": null,
+     "bound_lo": 51.0,
+     "decision_miss": null,
+     "takeover": 0.13695395513577333,
+     "beta": 0.09280040860176086,
+     "bound_hi": 0.14787485242030696
+    },
+    "2": {
+     "T_haz": 0,
+     "upd_err": null,
+     "bound_lo": 51.0,
+     "decision_miss": null,
+     "takeover": 0.029944289693593314,
+     "beta": 0.02056320197880268,
+     "bound_hi": 0.3488857938718663
+    }
+   }
+  },
+  "online": {
+   "roll": [
+    0.021806853582554516,
+    0.022082018927444796,
+    0.0219435736677116,
+    0.01904761904761905,
+    0.019230769230769232,
+    0.01910828025477707,
+    0.012658227848101266,
+    0.00949367088607595,
+    0.02,
+    0.016891891891891893,
+    0.02112676056338028,
+    0.027874564459930314,
+    0.01694915254237288,
+    0.02364864864864865,
+    0.019801980198019802,
+    0.013468013468013467,
+    0.02040816326530612,
+    0.017123287671232876,
+    0.024054982817869417,
+    0.03289473684210526,
+    0.02258064516129032,
+    0.023026315789473683,
+    0.026402640264026403,
+    0.030612244897959183,
+    0.030927835051546393,
+    0.029411764705882353,
+    0.02572347266881029,
+    0.012861736334405145,
+    0.012944983818770227,
+    0.016722408026755852,
+    0.02127659574468085,
+    0.028070175438596492,
+    0.034013605442176874,
+    0.029801324503311258,
+    0.022082018927444796,
+    0.018808777429467086,
+    0.01592356687898089,
+    0.012698412698412698,
+    0.025889967637540454,
+    0.02857142857142857,
+    0.025236593059936908,
+    0.029315960912052116,
+    0.025889967637540454,
+    0.020066889632107024,
+    0.016722408026755852,
+    0.022653721682847898,
+    0.015873015873015872,
+    0.02364864864864865,
+    0.0297029702970297,
+    0.020338983050847456,
+    0.013559322033898305,
+    0.012461059190031152,
+    0.009615384615384616
+   ],
+   "miss_post": 0.021730217302173022,
+   "takeover_post": 0.29575,
+   "miss_pre": 0.02019650655021834,
+   "fleet_post": {
+    "unsafe_rate": 0.13817138171381713,
+    "auto_clear_miss": 0.021730217302173022,
+    "late_takeover_hazard": 0.11644116441164412,
+    "false_manoeuvre": 0.17658694479410178,
+    "takeover_rate": 0.29575,
+    "mrm_rate": 0.6238377007607777,
+    "mrm_per_hour": 265.0932679425237,
+    "utilisation": 1.0119763894155123,
+    "mean_wait": 198.21898524236468,
+    "wait_q90": 262.4344508890297,
+    "autonomy": 0.70425
+   },
+   "bounds": {
+    "0": {
+     "T_haz": 2793,
+     "upd_err": 0.019692087361260293,
+     "bound_lo": 0.018259935553168637,
+     "decision_miss": 0.021056388294075662,
+     "takeover": 0.24117262423714037,
+     "beta": 0.16694124042987823,
+     "bound_hi": 0.05459895379250218
+    },
+    "1": {
+     "T_haz": 1036,
+     "upd_err": 0.02027027027027027,
+     "bound_lo": 0.049227799227799234,
+     "decision_miss": 0.02021174205967276,
+     "takeover": 0.2408500590318772,
+     "beta": 0.09280040860176086,
+     "bound_hi": 0.14787485242030696
+    },
+    "2": {
+     "T_haz": 429,
+     "upd_err": 0.023310023310023312,
+     "bound_lo": 0.11888111888111888,
+     "decision_miss": 0.023255813953488372,
+     "takeover": 0.07172701949860724,
+     "beta": 0.02056320197880268,
+     "bound_hi": 0.3488857938718663
+    }
+   }
+  },
+  "static_L": {
+   "roll": [
+    0.021806853582554516,
+    0.022082018927444796,
+    0.0219435736677116,
+    0.01904761904761905,
+    0.019230769230769232,
+    0.01592356687898089,
+    0.012658227848101266,
+    0.00949367088607595,
+    0.02,
+    0.02364864864864865,
+    0.02464788732394366,
+    0.0313588850174216,
+    0.01694915254237288,
+    0.02027027027027027,
+    0.0165016501650165,
+    0.010101010101010102,
+    0.017006802721088437,
+    0.0136986301369863,
+    0.020618556701030927,
+    0.029605263157894735,
+    0.025806451612903226,
+    0.023026315789473683,
+    0.0231023102310231,
+    0.027210884353741496,
+    0.027491408934707903,
+    0.032679738562091505,
+    0.03215434083601286,
+    0.01929260450160772,
+    0.012944983818770227,
+    0.010033444816053512,
+    0.0070921985815602835,
+    0.017543859649122806,
+    0.027210884353741496,
+    0.029801324503311258,
+    0.028391167192429023,
+    0.025078369905956112,
+    0.025477707006369428,
+    0.02857142857142857,
+    0.045307443365695796,
+    0.044444444444444446,
+    0.03785488958990536,
+    0.035830618892508145,
+    0.022653721682847898,
+    0.020066889632107024,
+    0.016722408026755852,
+    0.012944983818770227,
+    0.012698412698412698,
+    0.016891891891891893,
+    0.036303630363036306,
+    0.03389830508474576,
+    0.030508474576271188,
+    0.03115264797507788,
+    0.019230769230769232
+   ],
+   "miss_post": 0.025420254202542025,
+   "takeover_post": 0.257,
+   "miss_pre": 0.02019650655021834,
+   "fleet_post": {
+    "unsafe_rate": 0.12218122181221812,
+    "auto_clear_miss": 0.025420254202542025,
+    "late_takeover_hazard": 0.09676096760967609,
+    "false_manoeuvre": 0.18180183420248155,
+    "takeover_rate": 0.257,
+    "mrm_rate": 0.3788910505836576,
+    "mrm_per_hour": 139.9103358585542,
+    "utilisation": 1.0079246844950318,
+    "mean_wait": 172.6738591244352,
+    "wait_q90": 256.42146422949054,
+    "autonomy": 0.743
+   },
+   "bounds": {
+    "0": {
+     "T_haz": 0,
+     "upd_err": null,
+     "bound_lo": 51.0,
+     "decision_miss": null,
+     "takeover": 0.25937227550130776,
+     "beta": 0.16694124042987823,
+     "bound_hi": 0.05459895379250218
+    },
+    "1": {
+     "T_haz": 0,
+     "upd_err": null,
+     "bound_lo": 51.0,
+     "decision_miss": null,
+     "takeover": 0.13695395513577333,
+     "beta": 0.09280040860176086,
+     "bound_hi": 0.14787485242030696
+    },
+    "2": {
+     "T_haz": 0,
+     "upd_err": null,
+     "bound_lo": 51.0,
+     "decision_miss": null,
+     "takeover": 0.0,
+     "beta": 0.02056320197880268,
+     "bound_hi": 0.3488857938718663
+    }
+   }
+  },
+  "online_L": {
+   "roll": [
+    0.021806853582554516,
+    0.022082018927444796,
+    0.0219435736677116,
+    0.01904761904761905,
+    0.019230769230769232,
+    0.01910828025477707,
+    0.012658227848101266,
+    0.00949367088607595,
+    0.02,
+    0.016891891891891893,
+    0.02112676056338028,
+    0.027874564459930314,
+    0.01694915254237288,
+    0.02364864864864865,
+    0.019801980198019802,
+    0.013468013468013467,
+    0.02040816326530612,
+    0.017123287671232876,
+    0.024054982817869417,
+    0.03289473684210526,
+    0.02258064516129032,
+    0.023026315789473683,
+    0.026402640264026403,
+    0.030612244897959183,
+    0.030927835051546393,
+    0.029411764705882353,
+    0.02572347266881029,
+    0.012861736334405145,
+    0.012944983818770227,
+    0.016722408026755852,
+    0.02127659574468085,
+    0.028070175438596492,
+    0.034013605442176874,
+    0.029801324503311258,
+    0.022082018927444796,
+    0.018808777429467086,
+    0.01592356687898089,
+    0.012698412698412698,
+    0.025889967637540454,
+    0.02857142857142857,
+    0.025236593059936908,
+    0.029315960912052116,
+    0.025889967637540454,
+    0.020066889632107024,
+    0.016722408026755852,
+    0.022653721682847898,
+    0.015873015873015872,
+    0.02364864864864865,
+    0.0297029702970297,
+    0.020338983050847456,
+    0.013559322033898305,
+    0.012461059190031152,
+    0.009615384615384616
+   ],
+   "miss_post": 0.021730217302173022,
+   "takeover_post": 0.291625,
+   "miss_pre": 0.02019650655021834,
+   "fleet_post": {
+    "unsafe_rate": 0.13653136531365315,
+    "auto_clear_miss": 0.021730217302173022,
+    "late_takeover_hazard": 0.11480114801148011,
+    "false_manoeuvre": 0.18180183420248155,
+    "takeover_rate": 0.291625,
+    "mrm_rate": 0.6009429918559794,
+    "mrm_per_hour": 251.80268404838637,
+    "utilisation": 1.0119763894155125,
+    "mean_wait": 196.60002295202017,
+    "wait_q90": 262.01462416503017,
+    "autonomy": 0.708375
+   },
+   "bounds": {
+    "0": {
+     "T_haz": 2793,
+     "upd_err": 0.019692087361260293,
+     "bound_lo": 0.018259935553168637,
+     "decision_miss": 0.021056388294075662,
+     "takeover": 0.24117262423714037,
+     "beta": 0.16694124042987823,
+     "bound_hi": 0.05459895379250218
+    },
+    "1": {
+     "T_haz": 1036,
+     "upd_err": 0.02027027027027027,
+     "bound_lo": 0.049227799227799234,
+     "decision_miss": 0.02021174205967276,
+     "takeover": 0.2408500590318772,
+     "beta": 0.09280040860176086,
+     "bound_hi": 0.14787485242030696
+    },
+    "2": {
+     "T_haz": 429,
+     "upd_err": 0.023310023310023312,
+     "bound_lo": 0.11888111888111888,
+     "decision_miss": 0.023255813953488372,
+     "takeover": 0.04178272980501393,
+     "beta": 0.02056320197880268,
+     "bound_hi": 0.3488857938718663
+    }
+   }
+  },
+  "online_L_budget": {
+   "roll": [
+    0.021806853582554516,
+    0.022082018927444796,
+    0.0219435736677116,
+    0.01904761904761905,
+    0.019230769230769232,
+    0.01910828025477707,
+    0.012658227848101266,
+    0.00949367088607595,
+    0.02,
+    0.016891891891891893,
+    0.02112676056338028,
+    0.027874564459930314,
+    0.01694915254237288,
+    0.02364864864864865,
+    0.019801980198019802,
+    0.013468013468013467,
+    0.02040816326530612,
+    0.017123287671232876,
+    0.024054982817869417,
+    0.03289473684210526,
+    0.02258064516129032,
+    0.023026315789473683,
+    0.026402640264026403,
+    0.030612244897959183,
+    0.030927835051546393,
+    0.029411764705882353,
+    0.02572347266881029,
+    0.012861736334405145,
+    0.012944983818770227,
+    0.016722408026755852,
+    0.02127659574468085,
+    0.028070175438596492,
+    0.034013605442176874,
+    0.029801324503311258,
+    0.022082018927444796,
+    0.018808777429467086,
+    0.01592356687898089,
+    0.012698412698412698,
+    0.025889967637540454,
+    0.02857142857142857,
+    0.025236593059936908,
+    0.029315960912052116,
+    0.025889967637540454,
+    0.020066889632107024,
+    0.016722408026755852,
+    0.022653721682847898,
+    0.015873015873015872,
+    0.02364864864864865,
+    0.0297029702970297,
+    0.020338983050847456,
+    0.013559322033898305,
+    0.012461059190031152,
+    0.009615384615384616
+   ],
+   "miss_post": 0.021730217302173022,
+   "takeover_post": 0.145,
+   "miss_pre": 0.02019650655021834,
+   "fleet_post": {
+    "unsafe_rate": 0.028290282902829027,
+    "auto_clear_miss": 0.021730217302173022,
+    "late_takeover_hazard": 0.006560065600656006,
+    "false_manoeuvre": 0.346340586225499,
+    "takeover_rate": 0.145,
+    "mrm_rate": 0.07672413793103448,
+    "mrm_per_hour": 15.984621169976025,
+    "utilisation": 0.7854008095254047,
+    "mean_wait": 37.82695994076914,
+    "wait_q90": 126.05951556992558,
+    "autonomy": 0.855
+   },
+   "bounds": {
+    "0": {
+     "T_haz": 2793,
+     "upd_err": 0.019692087361260293,
+     "bound_lo": 0.018259935553168637,
+     "decision_miss": 0.021056388294075662,
+     "takeover": 0.16259808195292066,
+     "beta": 0.16694124042987823,
+     "bound_hi": 0.05459895379250218
+    },
+    "1": {
+     "T_haz": 1036,
+     "upd_err": 0.02027027027027027,
+     "bound_lo": 0.049227799227799234,
+     "decision_miss": 0.02021174205967276,
+     "takeover": 0.1077331759149941,
+     "beta": 0.09280040860176086,
+     "bound_hi": 0.14787485242030696
+    },
+    "2": {
+     "T_haz": 429,
+     "upd_err": 0.023310023310023312,
+     "bound_lo": 0.11888111888111888,
+     "decision_miss": 0.023255813953488372,
+     "takeover": 0.02576601671309192,
+     "beta": 0.02056320197880268,
+     "bound_hi": 0.3488857938718663
+    }
+   }
+  }
+ },
+ "runtime_s": 320.67458939552307,
+ "latency_ms_per_assessment": 0.036118268966674805
+}

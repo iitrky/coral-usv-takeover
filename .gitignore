@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+logs/
+data/ct_dma/
+*.log
+.DS_Store

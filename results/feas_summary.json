@@ -1,0 +1,445 @@
+{
+ "methods": {
+  "SCRC-global": {
+   "unsafe_rate": 0.025029774138533568,
+   "late_takeover_hazard": 0.005187517468995467,
+   "false_manoeuvre": 0.10475109172270584,
+   "total_manoeuvre": 0.14815562842236302,
+   "takeover_rate": 0.13105
+  },
+  "CORAL": {
+   "unsafe_rate": 0.021526485471572643,
+   "late_takeover_hazard": 0.0022783149168747892,
+   "false_manoeuvre": 0.12215335537689676,
+   "total_manoeuvre": 0.14258268807586633,
+   "takeover_rate": 0.13016
+  },
+  "CORAL-L": {
+   "unsafe_rate": 0.01984441796191997,
+   "late_takeover_hazard": 0.0005962474072221177,
+   "false_manoeuvre": 0.15296141114804723,
+   "total_manoeuvre": 0.16768560996902512,
+   "takeover_rate": 0.0985
+  },
+  "CORAL-F": {
+   "unsafe_rate": 0.019510963700415107,
+   "late_takeover_hazard": 0.0002627931457172553,
+   "false_manoeuvre": 0.16742720782151277,
+   "total_manoeuvre": 0.1676280084804217,
+   "takeover_rate": 0.09469000000000001
+  },
+  "CORAL-F-online": {
+   "unsafe_rate": 0.01961035688465628,
+   "late_takeover_hazard": 0.0003621863299584299,
+   "false_manoeuvre": 0.1662093463316234,
+   "total_manoeuvre": 0.16639605587179457,
+   "takeover_rate": 0.09563999999999999
+  },
+  "F w/o routing (cert. timeout only)": {
+   "unsafe_rate": 0.0197430445586594,
+   "late_takeover_hazard": 0.0004948740039615489,
+   "false_manoeuvre": 0.12215335537689676,
+   "total_manoeuvre": 0.160724232903621,
+   "takeover_rate": 0.13016
+  },
+  "F w/o cert. timeout (routing only)": {
+   "unsafe_rate": 0.019510963700415107,
+   "late_takeover_hazard": 0.0002627931457172553,
+   "false_manoeuvre": 0.16742720782151277,
+   "total_manoeuvre": 0.16742720782151277,
+   "takeover_rate": 0.09469000000000001
+  },
+  "F w/o live queue state": {
+   "unsafe_rate": 0.019544208381266172,
+   "late_takeover_hazard": 0.00029603782656831913,
+   "false_manoeuvre": 0.16833937108996488,
+   "total_manoeuvre": 0.16882829280702893,
+   "takeover_rate": 0.09380000000000001
+  },
+  "F w/o Mondrian deadline bins": {
+   "unsafe_rate": 0.019379946071957904,
+   "late_takeover_hazard": 0.00013177551726004937,
+   "false_manoeuvre": 0.18266737243610587,
+   "total_manoeuvre": 0.18286807263013988,
+   "takeover_rate": 0.08190000000000001
+  }
+ },
+ "shift": {
+  "ais_dropout": {
+   "SCRC-global": {
+    "unsafe_rate": 0.08860227625774499,
+    "late_takeover_hazard": 0.0706451133866128,
+    "false_manoeuvre": 0.15561640527724285,
+    "total_manoeuvre": 0.2826502057703195,
+    "takeover_rate": 0.232525
+   },
+   "CORAL": {
+    "unsafe_rate": 0.08409055420900553,
+    "late_takeover_hazard": 0.06745259742468031,
+    "false_manoeuvre": 0.18483574461746966,
+    "total_manoeuvre": 0.26440009023065514,
+    "takeover_rate": 0.234975
+   },
+   "CORAL-L": {
+    "unsafe_rate": 0.029162385019094413,
+    "late_takeover_hazard": 0.012524428234769198,
+    "false_manoeuvre": 0.24223031624948405,
+    "total_manoeuvre": 0.2723388459785756,
+    "takeover_rate": 0.171425
+   },
+   "CORAL-F": {
+    "unsafe_rate": 0.01845154862202346,
+    "late_takeover_hazard": 0.0018135918376982383,
+    "false_manoeuvre": 0.2555221876621604,
+    "total_manoeuvre": 0.25588196113168993,
+    "takeover_rate": 0.171925
+   },
+   "CORAL-F-online": {
+    "unsafe_rate": 0.018199746523452208,
+    "late_takeover_hazard": 0.0015617897391269906,
+    "false_manoeuvre": 0.25694877388866405,
+    "total_manoeuvre": 0.2577743245759488,
+    "takeover_rate": 0.17052499999999998
+   },
+   "F w/o routing (cert. timeout only)": {
+    "unsafe_rate": 0.02447328064001466,
+    "late_takeover_hazard": 0.007835323855689438,
+    "false_manoeuvre": 0.18483574461746966,
+    "total_manoeuvre": 0.2649270663314972,
+    "takeover_rate": 0.234975
+   },
+   "F w/o cert. timeout (routing only)": {
+    "unsafe_rate": 0.01845154862202346,
+    "late_takeover_hazard": 0.0018135918376982383,
+    "false_manoeuvre": 0.25559497621055866,
+    "total_manoeuvre": 0.25563110990522897,
+    "takeover_rate": 0.17185
+   },
+   "F w/o live queue state": {
+    "unsafe_rate": 0.02176624242619344,
+    "late_takeover_hazard": 0.005128285641868219,
+    "false_manoeuvre": 0.23727332866060036,
+    "total_manoeuvre": 0.2616003175451954,
+    "takeover_rate": 0.188475
+   },
+   "F w/o Mondrian deadline bins": {
+    "unsafe_rate": 0.01845862677838871,
+    "late_takeover_hazard": 0.0018206699940634889,
+    "false_manoeuvre": 0.26343147461472555,
+    "total_manoeuvre": 0.2635389070500919,
+    "takeover_rate": 0.16165
+   }
+  },
+  "link_degradation": {
+   "SCRC-global": {
+    "unsafe_rate": 0.03906528275985206,
+    "late_takeover_hazard": 0.021299534354017963,
+    "false_manoeuvre": 0.10064264041652746,
+    "total_manoeuvre": 0.20308023355209012,
+    "takeover_rate": 0.13280000000000003
+   },
+   "CORAL": {
+    "unsafe_rate": 0.016612117376881935,
+    "late_takeover_hazard": 0.002066232694081024,
+    "false_manoeuvre": 0.21001305058798825,
+    "total_manoeuvre": 0.2285431549012585,
+    "takeover_rate": 0.083275
+   },
+   "CORAL-L": {
+    "unsafe_rate": 0.014875759103856395,
+    "late_takeover_hazard": 0.0003298744210554851,
+    "false_manoeuvre": 0.23352649528259187,
+    "total_manoeuvre": 0.2437052928555532,
+    "takeover_rate": 0.0618
+   },
+   "CORAL-F": {
+    "unsafe_rate": 0.014628155353306877,
+    "late_takeover_hazard": 8.227067050596463e-05,
+    "false_manoeuvre": 0.24452483928054985,
+    "total_manoeuvre": 0.24466811966770105,
+    "takeover_rate": 0.057100000000000005
+   },
+   "CORAL-F-online": {
+    "unsafe_rate": 0.014628155353306877,
+    "late_takeover_hazard": 8.227067050596463e-05,
+    "false_manoeuvre": 0.24438219931560923,
+    "total_manoeuvre": 0.2445614379911459,
+    "takeover_rate": 0.057199999999999994
+   },
+   "F w/o routing (cert. timeout only)": {
+    "unsafe_rate": 0.014793962229704638,
+    "late_takeover_hazard": 0.0002480775469037252,
+    "false_manoeuvre": 0.21001305058798825,
+    "total_manoeuvre": 0.24112155654813655,
+    "takeover_rate": 0.083275
+   },
+   "F w/o cert. timeout (routing only)": {
+    "unsafe_rate": 0.014628155353306877,
+    "late_takeover_hazard": 8.227067050596463e-05,
+    "false_manoeuvre": 0.24452483928054985,
+    "total_manoeuvre": 0.24452483928054985,
+    "takeover_rate": 0.057100000000000005
+   },
+   "F w/o live queue state": {
+    "unsafe_rate": 0.014628155353306877,
+    "late_takeover_hazard": 8.227067050596463e-05,
+    "false_manoeuvre": 0.24338264216280484,
+    "total_manoeuvre": 0.2444570647112169,
+    "takeover_rate": 0.057725000000000005
+   },
+   "F w/o Mondrian deadline bins": {
+    "unsafe_rate": 0.014628155353306877,
+    "late_takeover_hazard": 8.227067050596463e-05,
+    "false_manoeuvre": 0.25288265344124283,
+    "total_manoeuvre": 0.2531331213500433,
+    "takeover_rate": 0.049725
+   }
+  },
+  "rough_sea": {
+   "SCRC-global": {
+    "unsafe_rate": 0.037052400917248415,
+    "late_takeover_hazard": 0.01314011023892862,
+    "false_manoeuvre": 0.11044964762773682,
+    "total_manoeuvre": 0.16794574655401073,
+    "takeover_rate": 0.152525
+   },
+   "CORAL": {
+    "unsafe_rate": 0.028740543297646314,
+    "late_takeover_hazard": 0.006154780266060908,
+    "false_manoeuvre": 0.13660379934246555,
+    "total_manoeuvre": 0.15982586078477257,
+    "takeover_rate": 0.149525
+   },
+   "CORAL-L": {
+    "unsafe_rate": 0.02413492150693312,
+    "late_takeover_hazard": 0.0015491584753477138,
+    "false_manoeuvre": 0.17166792967005615,
+    "total_manoeuvre": 0.18760172041162368,
+    "takeover_rate": 0.113975
+   },
+   "CORAL-F": {
+    "unsafe_rate": 0.023571121356308667,
+    "late_takeover_hazard": 0.000985358324723259,
+    "false_manoeuvre": 0.18396882851338925,
+    "total_manoeuvre": 0.18429308519600793,
+    "takeover_rate": 0.111425
+   },
+   "CORAL-F-online": {
+    "unsafe_rate": 0.02340863174492113,
+    "late_takeover_hazard": 0.000822868713335723,
+    "false_manoeuvre": 0.1849035110624595,
+    "total_manoeuvre": 0.18515604123810625,
+    "takeover_rate": 0.11047499999999999
+   },
+   "F w/o routing (cert. timeout only)": {
+    "unsafe_rate": 0.02472508326884079,
+    "late_takeover_hazard": 0.002139320237255377,
+    "false_manoeuvre": 0.13660379934246555,
+    "total_manoeuvre": 0.17691396886209426,
+    "takeover_rate": 0.149525
+   },
+   "F w/o cert. timeout (routing only)": {
+    "unsafe_rate": 0.023571121356308667,
+    "late_takeover_hazard": 0.000985358324723259,
+    "false_manoeuvre": 0.18396882851338925,
+    "total_manoeuvre": 0.18396882851338925,
+    "takeover_rate": 0.111425
+   },
+   "F w/o live queue state": {
+    "unsafe_rate": 0.023900712619681592,
+    "late_takeover_hazard": 0.0013149495880961813,
+    "false_manoeuvre": 0.18332119446460354,
+    "total_manoeuvre": 0.18464975270180278,
+    "takeover_rate": 0.11185
+   },
+   "F w/o Mondrian deadline bins": {
+    "unsafe_rate": 0.02340863174492113,
+    "late_takeover_hazard": 0.000822868713335723,
+    "false_manoeuvre": 0.19926848896218843,
+    "total_manoeuvre": 0.1994489756057997,
+    "takeover_rate": 0.09825
+   }
+  }
+ },
+ "cert": {
+  "delta": 0.07353473020087212,
+  "qR": 1.3938437041940979,
+  "qD": [
+   42.94459533691406,
+   129.0
+  ],
+  "pi_T": 0.07073608853578371
+ },
+ "audit": {
+  "te": {
+   "n_late": 69,
+   "caught": 54
+  },
+  "ais_dropout": {
+   "n_late": 818,
+   "caught": 806
+  },
+  "link_degradation": {
+   "n_late": 25,
+   "caught": 24
+  },
+  "rough_sea": {
+   "n_late": 75,
+   "caught": 57
+  }
+ },
+ "boot": {
+  "SCRC-global": [
+   -0.5512824744990592,
+   -0.6470141616875186,
+   -0.4489486019872578,
+   5
+  ],
+  "CORAL": [
+   -0.2013666523619318,
+   -0.254184134948668,
+   -0.1551513550985376,
+   5
+  ],
+  "CORAL-L": [
+   -0.03301092661671013,
+   -0.06602185323342026,
+   -0.003301092661671013,
+   4
+  ]
+ },
+ "frontier": {
+  "te": {
+   "CORAL": [
+    [
+     0.005,
+     0.53,
+     37.4
+    ],
+    [
+     0.01,
+     1.12,
+     23.7
+    ],
+    [
+     0.015,
+     1.73,
+     17.3
+    ],
+    [
+     0.02,
+     2.15,
+     14.3
+    ],
+    [
+     0.03,
+     3.74,
+     9.3
+    ],
+    [
+     0.04,
+     5.7,
+     7.0
+    ]
+   ],
+   "CORAL-F": [
+    [
+     0.005,
+     0.52,
+     38.5
+    ],
+    [
+     0.01,
+     1.06,
+     25.5
+    ],
+    [
+     0.015,
+     1.62,
+     19.8
+    ],
+    [
+     0.02,
+     1.95,
+     16.8
+    ],
+    [
+     0.03,
+     2.86,
+     12.8
+    ],
+    [
+     0.04,
+     4.02,
+     10.4
+    ]
+   ]
+  },
+  "ais_dropout": {
+   "CORAL": [
+    [
+     0.005,
+     0.19,
+     51.9
+    ],
+    [
+     0.01,
+     2.12,
+     37.5
+    ],
+    [
+     0.015,
+     6.02,
+     30.7
+    ],
+    [
+     0.02,
+     8.41,
+     26.4
+    ],
+    [
+     0.03,
+     16.71,
+     19.0
+    ],
+    [
+     0.04,
+     21.74,
+     14.2
+    ]
+   ],
+   "CORAL-F": [
+    [
+     0.005,
+     0.18,
+     52.7
+    ],
+    [
+     0.01,
+     0.63,
+     37.9
+    ],
+    [
+     0.015,
+     1.25,
+     30.0
+    ],
+    [
+     0.02,
+     1.85,
+     25.6
+    ],
+    [
+     0.03,
+     4.09,
+     19.4
+    ],
+    [
+     0.04,
+     7.27,
+     15.9
+    ]
+   ]
+  }
+ }
+}

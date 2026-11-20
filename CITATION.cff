@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper and this repository."
+title: "CORAL: risk-controlled takeover requests for satellite-supervised unmanned surface vessels"
+type: software
+license: MIT
+authors:
+  - family-names: Dalton
+    given-names: G. Arul
+    orcid: "https://orcid.org/0000-0002-5981-7176"
+    affiliation: "Saveetha Engineering College, Chennai, India"
+  - family-names: Mani
+    given-names: S. V. J.
+    orcid: "https://orcid.org/0009-0008-0957-6301"
+    affiliation: "Saveetha Engineering College, Chennai, India"
+preferred-citation:
+  type: article
+  title: "Risk Controlled Takeover Requests for Satellite Supervised Unmanned Surface Vessels"
+  authors:
+    - family-names: Dalton
+      given-names: G. Arul
+    - family-names: Mani
+      given-names: S. V. J.
+  journal: "Journal of Marine Science and Technology"
+  status: submitted
+  year: 2026

@@ -1,0 +1,857 @@
+{
+ "seed": 1,
+ "cert": {
+  "qR": 1.3276200510502414,
+  "qD": [
+   274.5870361328125,
+   940.0
+  ],
+  "edges": [
+   1164.3678588867188
+  ],
+  "dR": 0.1,
+  "dD": 0.03787878787878788,
+  "delta": 0.03787878787878788,
+  "pi_T": 0.132
+ },
+ "methods": {
+  "SCRC-global": {
+   "unsafe_rate": 0.036533333333333334,
+   "auto_clear_miss": 0.021333333333333333,
+   "late_takeover_hazard": 0.0152,
+   "false_manoeuvre": 0.07155555555555555,
+   "total_manoeuvre": 0.09724444444444444,
+   "takeover_rate": 0.13926666666666668,
+   "routed_rate": 0.0,
+   "mrm_rate": 0.17185256103398755,
+   "utilisation": 0.9684686798588741,
+   "mean_wait": 262.20556042405127
+  },
+  "CORAL": {
+   "unsafe_rate": 0.021866666666666666,
+   "auto_clear_miss": 0.021066666666666668,
+   "late_takeover_hazard": 0.0008,
+   "false_manoeuvre": 0.08053333333333333,
+   "total_manoeuvre": 0.0912,
+   "takeover_rate": 0.14186666666666667,
+   "routed_rate": 0.0,
+   "mrm_rate": 0.07236842105263158,
+   "utilisation": 0.7502403166911578,
+   "mean_wait": 22.285231617189346
+  },
+  "CORAL-L": {
+   "unsafe_rate": 0.0216,
+   "auto_clear_miss": 0.021066666666666668,
+   "late_takeover_hazard": 0.0005333333333333334,
+   "false_manoeuvre": 0.08311111111111111,
+   "total_manoeuvre": 0.0936,
+   "takeover_rate": 0.13993333333333333,
+   "routed_rate": 0.0,
+   "mrm_rate": 0.07193901858027632,
+   "utilisation": 0.6727748294653665,
+   "mean_wait": 12.339950668368525
+  },
+  "CORAL-F": {
+   "unsafe_rate": 0.021066666666666668,
+   "auto_clear_miss": 0.021066666666666668,
+   "late_takeover_hazard": 0.0,
+   "false_manoeuvre": 0.10746666666666667,
+   "total_manoeuvre": 0.10746666666666667,
+   "takeover_rate": 0.1156,
+   "routed_rate": 0.026266666666666667,
+   "mrm_rate": 0.0,
+   "utilisation": 0.6048324760196909,
+   "mean_wait": 9.279836756490706,
+   "cov_R": 0.8927335640138409,
+   "cov_D": 0.9828571428571429,
+   "qR_final": 1.3276200510502414,
+   "qD_final": [
+    274.5870361328125,
+    940.0
+   ]
+  },
+  "CORAL-F-online": {
+   "unsafe_rate": 0.021066666666666668,
+   "auto_clear_miss": 0.021066666666666668,
+   "late_takeover_hazard": 0.0,
+   "false_manoeuvre": 0.10711111111111112,
+   "total_manoeuvre": 0.10711111111111112,
+   "takeover_rate": 0.1158,
+   "routed_rate": 0.026066666666666665,
+   "mrm_rate": 0.0,
+   "utilisation": 0.6052169238950494,
+   "mean_wait": 9.269545966588502,
+   "cov_R": 0.8998272884283247,
+   "cov_D": 0.9809523809523809,
+   "qR_final": 1.3680521009722098,
+   "qD_final": [
+    256.8597634055402,
+    905.5681818181674
+   ]
+  },
+  "F w/o routing (cert. timeout only)": {
+   "unsafe_rate": 0.021066666666666668,
+   "auto_clear_miss": 0.021066666666666668,
+   "late_takeover_hazard": 0.0,
+   "false_manoeuvre": 0.08053333333333333,
+   "total_manoeuvre": 0.10586666666666666,
+   "takeover_rate": 0.14186666666666667,
+   "routed_rate": 0.0,
+   "mrm_rate": 0.17528195488721804,
+   "utilisation": 0.663109051107073,
+   "mean_wait": 11.946932465135026,
+   "cov_R": 0.9201127819548872,
+   "cov_D": 0.9828571428571429,
+   "qR_final": 1.3276200510502414,
+   "qD_final": [
+    274.5870361328125,
+    940.0
+   ]
+  },
+  "F w/o cert. timeout (routing only)": {
+   "unsafe_rate": 0.021066666666666668,
+   "auto_clear_miss": 0.021066666666666668,
+   "late_takeover_hazard": 0.0,
+   "false_manoeuvre": 0.10746666666666667,
+   "total_manoeuvre": 0.10746666666666667,
+   "takeover_rate": 0.1156,
+   "routed_rate": 0.026266666666666667,
+   "mrm_rate": 0.0,
+   "utilisation": 0.6048324760196909,
+   "mean_wait": 9.279836756490706,
+   "cov_R": 0.8927335640138409,
+   "cov_D": 0.9828571428571429,
+   "qR_final": 1.3276200510502414,
+   "qD_final": [
+    274.5870361328125,
+    940.0
+   ]
+  },
+  "F w/o live queue state": {
+   "unsafe_rate": 0.021066666666666668,
+   "auto_clear_miss": 0.021066666666666668,
+   "late_takeover_hazard": 0.0,
+   "false_manoeuvre": 0.10684444444444445,
+   "total_manoeuvre": 0.10693333333333334,
+   "takeover_rate": 0.116,
+   "routed_rate": 0.025866666666666666,
+   "mrm_rate": 0.0005747126436781609,
+   "utilisation": 0.618368077594151,
+   "mean_wait": 10.3113394019727,
+   "cov_R": 0.8235632183908046,
+   "cov_D": 0.9828571428571429,
+   "qR_final": 0.8386036137587205,
+   "qD_final": [
+    274.5870361328125,
+    940.0
+   ]
+  },
+  "F w/o Mondrian deadline bins": {
+   "unsafe_rate": 0.021066666666666668,
+   "auto_clear_miss": 0.021066666666666668,
+   "late_takeover_hazard": 0.0,
+   "false_manoeuvre": 0.1255111111111111,
+   "total_manoeuvre": 0.1255111111111111,
+   "takeover_rate": 0.09293333333333334,
+   "routed_rate": 0.048933333333333336,
+   "mrm_rate": 0.0007173601147776184,
+   "utilisation": 0.49800353689089627,
+   "mean_wait": 5.015752912473259,
+   "cov_R": 0.8880918220946915,
+   "cov_D": 0.9923809523809524,
+   "qR_final": 1.3399749835871955,
+   "qD_final": [
+    890.0
+   ]
+  }
+ },
+ "shift": {
+  "SCRC-global": {
+   "ais_dropout": {
+    "unsafe_rate": 0.11266666666666666,
+    "auto_clear_miss": 0.02266666666666667,
+    "late_takeover_hazard": 0.09,
+    "false_manoeuvre": 0.11155555555555556,
+    "total_manoeuvre": 0.2071111111111111,
+    "takeover_rate": 0.2285,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.3741794310722101,
+    "utilisation": 1.0746054455058742,
+    "mean_wait": 897.1734931168668
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.06866666666666667,
+    "auto_clear_miss": 0.018666666666666668,
+    "late_takeover_hazard": 0.05,
+    "false_manoeuvre": 0.07133333333333333,
+    "total_manoeuvre": 0.14933333333333335,
+    "takeover_rate": 0.12766666666666668,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.5587467362924282,
+    "utilisation": 1.0745384044918505,
+    "mean_wait": 802.3945006169455
+   },
+   "rough_sea": {
+    "unsafe_rate": 0.04066666666666666,
+    "auto_clear_miss": 0.027333333333333334,
+    "late_takeover_hazard": 0.013333333333333334,
+    "false_manoeuvre": 0.07466666666666667,
+    "total_manoeuvre": 0.09866666666666667,
+    "takeover_rate": 0.14516666666666667,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.1549942594718714,
+    "utilisation": 1.0193371078996016,
+    "mean_wait": 248.85185187815688
+   }
+  },
+  "CORAL": {
+   "ais_dropout": {
+    "unsafe_rate": 0.16133333333333333,
+    "auto_clear_miss": 0.022,
+    "late_takeover_hazard": 0.13933333333333334,
+    "false_manoeuvre": 0.114,
+    "total_manoeuvre": 0.1831111111111111,
+    "takeover_rate": 0.2485,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.27095908786049633,
+    "utilisation": 1.0747191831738496,
+    "mean_wait": 816.7191827666989
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.015333333333333332,
+    "auto_clear_miss": 0.015333333333333332,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.15533333333333332,
+    "total_manoeuvre": 0.16177777777777777,
+    "takeover_rate": 0.08233333333333333,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.0708502024291498,
+    "utilisation": 0.6091326423579646,
+    "mean_wait": 13.942447795040989
+   },
+   "rough_sea": {
+    "unsafe_rate": 0.027333333333333334,
+    "auto_clear_miss": 0.027333333333333334,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.08244444444444445,
+    "total_manoeuvre": 0.09222222222222222,
+    "takeover_rate": 0.15033333333333335,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.06097560975609756,
+    "utilisation": 0.7985914197883098,
+    "mean_wait": 27.622417671553336
+   }
+  },
+  "CORAL-L": {
+   "ais_dropout": {
+    "unsafe_rate": 0.15933333333333333,
+    "auto_clear_miss": 0.022,
+    "late_takeover_hazard": 0.13733333333333334,
+    "false_manoeuvre": 0.11688888888888889,
+    "total_manoeuvre": 0.1708888888888889,
+    "takeover_rate": 0.24633333333333332,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.21718538565629228,
+    "utilisation": 1.0747191831738503,
+    "mean_wait": 799.5557820816771
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.015333333333333332,
+    "auto_clear_miss": 0.015333333333333332,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.16333333333333333,
+    "total_manoeuvre": 0.1688888888888889,
+    "takeover_rate": 0.07633333333333334,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.06768558951965066,
+    "utilisation": 0.4178152858257381,
+    "mean_wait": 4.358702178992326
+   },
+   "rough_sea": {
+    "unsafe_rate": 0.027333333333333334,
+    "auto_clear_miss": 0.027333333333333334,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.08444444444444445,
+    "total_manoeuvre": 0.09422222222222222,
+    "takeover_rate": 0.14866666666666667,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.06053811659192825,
+    "utilisation": 0.7497225978834264,
+    "mean_wait": 17.762025092873493
+   }
+  },
+  "CORAL-F": {
+   "ais_dropout": {
+    "unsafe_rate": 0.022,
+    "auto_clear_miss": 0.022,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.16533333333333333,
+    "total_manoeuvre": 0.16844444444444445,
+    "takeover_rate": 0.197,
+    "routed_rate": 0.0515,
+    "mrm_rate": 0.01353637901861252,
+    "utilisation": 0.981358806959705,
+    "mean_wait": 79.73370997619618,
+    "cov_R": 0.8942470389170897,
+    "cov_D": 0.9287925696594427,
+    "qR_final": 1.3276200510502414,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.015333333333333332,
+    "auto_clear_miss": 0.015333333333333332,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.17466666666666666,
+    "total_manoeuvre": 0.17466666666666666,
+    "takeover_rate": 0.06483333333333334,
+    "routed_rate": 0.0175,
+    "mrm_rate": 0.0,
+    "utilisation": 0.43507354753861494,
+    "mean_wait": 4.087468775668611,
+    "cov_R": 0.8868894601542416,
+    "cov_D": 0.9719626168224299,
+    "qR_final": 1.3276200510502414,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   },
+   "rough_sea": {
+    "unsafe_rate": 0.027333333333333334,
+    "auto_clear_miss": 0.027333333333333334,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.10911111111111112,
+    "total_manoeuvre": 0.10933333333333334,
+    "takeover_rate": 0.12516666666666668,
+    "routed_rate": 0.025166666666666667,
+    "mrm_rate": 0.0013315579227696406,
+    "utilisation": 0.6803721427172408,
+    "mean_wait": 12.245466943794414,
+    "cov_R": 0.8868175765645806,
+    "cov_D": 0.9574468085106383,
+    "qR_final": 1.3276200510502414,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   }
+  },
+  "CORAL-F-online": {
+   "ais_dropout": {
+    "unsafe_rate": 0.022,
+    "auto_clear_miss": 0.022,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.17177777777777778,
+    "total_manoeuvre": 0.17422222222222222,
+    "takeover_rate": 0.19133333333333333,
+    "routed_rate": 0.057166666666666664,
+    "mrm_rate": 0.010452961672473868,
+    "utilisation": 0.9547057057028884,
+    "mean_wait": 54.26982456449376,
+    "cov_R": 0.9015679442508711,
+    "cov_D": 0.934984520123839,
+    "qR_final": 1.2503054781543625,
+    "qD_final": [
+     317.61733916311573,
+     937.6893939393831
+    ]
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.015333333333333332,
+    "auto_clear_miss": 0.015333333333333332,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.1751111111111111,
+    "total_manoeuvre": 0.1751111111111111,
+    "takeover_rate": 0.0645,
+    "routed_rate": 0.017833333333333333,
+    "mrm_rate": 0.0,
+    "utilisation": 0.4306228882506435,
+    "mean_wait": 4.004846114835018,
+    "cov_R": 0.896640826873385,
+    "cov_D": 0.9719626168224299,
+    "qR_final": 1.5579765624541317,
+    "qD_final": [
+     274.73855128432774,
+     932.2348484848462
+    ]
+   },
+   "rough_sea": {
+    "unsafe_rate": 0.027333333333333334,
+    "auto_clear_miss": 0.027333333333333334,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.10955555555555556,
+    "total_manoeuvre": 0.10977777777777778,
+    "takeover_rate": 0.12466666666666666,
+    "routed_rate": 0.025666666666666667,
+    "mrm_rate": 0.001336898395721925,
+    "utilisation": 0.674046937364175,
+    "mean_wait": 12.601804509320386,
+    "cov_R": 0.9024064171122995,
+    "cov_D": 0.9659574468085106,
+    "qR_final": 1.0548387419165712,
+    "qD_final": [
+     275.5340058297824,
+     936.4393939393885
+    ]
+   }
+  },
+  "F w/o routing (cert. timeout only)": {
+   "ais_dropout": {
+    "unsafe_rate": 0.02266666666666667,
+    "auto_clear_miss": 0.022,
+    "late_takeover_hazard": 0.0006666666666666666,
+    "false_manoeuvre": 0.114,
+    "total_manoeuvre": 0.18755555555555556,
+    "takeover_rate": 0.2485,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.2870556673373575,
+    "utilisation": 1.0023167460220104,
+    "mean_wait": 104.43542974691432,
+    "cov_R": 0.9476861167002012,
+    "cov_D": 0.9287925696594427,
+    "qR_final": 1.3276200510502414,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.015333333333333332,
+    "auto_clear_miss": 0.015333333333333332,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.15533333333333332,
+    "total_manoeuvre": 0.1728888888888889,
+    "takeover_rate": 0.08233333333333333,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.19230769230769232,
+    "utilisation": 0.5408484586083283,
+    "mean_wait": 7.603961985486487,
+    "cov_R": 0.9311740890688259,
+    "cov_D": 0.9719626168224299,
+    "qR_final": 1.3276200510502414,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   },
+   "rough_sea": {
+    "unsafe_rate": 0.027333333333333334,
+    "auto_clear_miss": 0.027333333333333334,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.08244444444444445,
+    "total_manoeuvre": 0.10711111111111112,
+    "takeover_rate": 0.15033333333333335,
+    "routed_rate": 0.0,
+    "mrm_rate": 0.15521064301552107,
+    "utilisation": 0.7161419769819678,
+    "mean_wait": 16.57331999226817,
+    "cov_R": 0.9068736141906873,
+    "cov_D": 0.9574468085106383,
+    "qR_final": 1.3276200510502414,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   }
+  },
+  "F w/o cert. timeout (routing only)": {
+   "ais_dropout": {
+    "unsafe_rate": 0.022,
+    "auto_clear_miss": 0.022,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.16577777777777777,
+    "total_manoeuvre": 0.16577777777777777,
+    "takeover_rate": 0.19633333333333333,
+    "routed_rate": 0.05216666666666667,
+    "mrm_rate": 0.0,
+    "utilisation": 0.9841938419532809,
+    "mean_wait": 81.64317309019354,
+    "cov_R": 0.8904923599320883,
+    "cov_D": 0.9287925696594427,
+    "qR_final": 1.3276200510502414,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.015333333333333332,
+    "auto_clear_miss": 0.015333333333333332,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.17466666666666666,
+    "total_manoeuvre": 0.17466666666666666,
+    "takeover_rate": 0.06483333333333334,
+    "routed_rate": 0.0175,
+    "mrm_rate": 0.0,
+    "utilisation": 0.43507354753861494,
+    "mean_wait": 4.087468775668611,
+    "cov_R": 0.8868894601542416,
+    "cov_D": 0.9719626168224299,
+    "qR_final": 1.3276200510502414,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   },
+   "rough_sea": {
+    "unsafe_rate": 0.027333333333333334,
+    "auto_clear_miss": 0.027333333333333334,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.10911111111111112,
+    "total_manoeuvre": 0.10911111111111112,
+    "takeover_rate": 0.12516666666666668,
+    "routed_rate": 0.025166666666666667,
+    "mrm_rate": 0.0,
+    "utilisation": 0.6808980851225654,
+    "mean_wait": 12.245466943794414,
+    "cov_R": 0.8868175765645806,
+    "cov_D": 0.9574468085106383,
+    "qR_final": 1.3276200510502414,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   }
+  },
+  "F w/o live queue state": {
+   "ais_dropout": {
+    "unsafe_rate": 0.02266666666666667,
+    "auto_clear_miss": 0.022,
+    "late_takeover_hazard": 0.0006666666666666666,
+    "false_manoeuvre": 0.14333333333333334,
+    "total_manoeuvre": 0.18644444444444444,
+    "takeover_rate": 0.2175,
+    "routed_rate": 0.031,
+    "mrm_rate": 0.18084291187739462,
+    "utilisation": 1.0001180176655426,
+    "mean_wait": 117.17665927779943,
+    "cov_R": 0.221455938697318,
+    "cov_D": 0.9287925696594427,
+    "qR_final": 0.8386036137587205,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.015333333333333332,
+    "auto_clear_miss": 0.015333333333333332,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.17377777777777778,
+    "total_manoeuvre": 0.17422222222222222,
+    "takeover_rate": 0.06566666666666666,
+    "routed_rate": 0.016666666666666666,
+    "mrm_rate": 0.005076142131979695,
+    "utilisation": 0.4871065644279993,
+    "mean_wait": 5.930446306239139,
+    "cov_R": 0.8604060913705583,
+    "cov_D": 0.9719626168224299,
+    "qR_final": 0.8386036137587205,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   },
+   "rough_sea": {
+    "unsafe_rate": 0.027333333333333334,
+    "auto_clear_miss": 0.027333333333333334,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.10822222222222222,
+    "total_manoeuvre": 0.10866666666666666,
+    "takeover_rate": 0.126,
+    "routed_rate": 0.024333333333333332,
+    "mrm_rate": 0.003968253968253968,
+    "utilisation": 0.6993013261906398,
+    "mean_wait": 18.99362476436319,
+    "cov_R": 0.7605820105820106,
+    "cov_D": 0.9574468085106383,
+    "qR_final": 0.8386036137587205,
+    "qD_final": [
+     274.5870361328125,
+     940.0
+    ]
+   }
+  },
+  "F w/o Mondrian deadline bins": {
+   "ais_dropout": {
+    "unsafe_rate": 0.022,
+    "auto_clear_miss": 0.022,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.178,
+    "total_manoeuvre": 0.17822222222222223,
+    "takeover_rate": 0.18016666666666667,
+    "routed_rate": 0.06833333333333333,
+    "mrm_rate": 0.0009250693802035153,
+    "utilisation": 0.9357434383086721,
+    "mean_wait": 71.07402810137441,
+    "cov_R": 0.9639222941720629,
+    "cov_D": 0.9628482972136223,
+    "qR_final": 1.3399749835871955,
+    "qD_final": [
+     890.0
+    ]
+   },
+   "link_degradation": {
+    "unsafe_rate": 0.015333333333333332,
+    "auto_clear_miss": 0.015333333333333332,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.18488888888888888,
+    "total_manoeuvre": 0.18488888888888888,
+    "takeover_rate": 0.051333333333333335,
+    "routed_rate": 0.031,
+    "mrm_rate": 0.0,
+    "utilisation": 0.37539229144733527,
+    "mean_wait": 2.6701560715877077,
+    "cov_R": 0.8961038961038961,
+    "cov_D": 1.0,
+    "qR_final": 1.3399749835871955,
+    "qD_final": [
+     890.0
+    ]
+   },
+   "rough_sea": {
+    "unsafe_rate": 0.027333333333333334,
+    "auto_clear_miss": 0.027333333333333334,
+    "late_takeover_hazard": 0.0,
+    "false_manoeuvre": 0.1308888888888889,
+    "total_manoeuvre": 0.1308888888888889,
+    "takeover_rate": 0.09633333333333334,
+    "routed_rate": 0.054,
+    "mrm_rate": 0.0,
+    "utilisation": 0.5368474540816358,
+    "mean_wait": 6.673023608517817,
+    "cov_R": 0.8979238754325259,
+    "cov_D": 0.9872340425531915,
+    "qR_final": 1.3399749835871955,
+    "qD_final": [
+     890.0
+    ]
+   }
+  }
+ },
+ "audit": {
+  "te": {
+   "static": {
+    "n_late": 3,
+    "caught": 3,
+    "flagged": 447
+   },
+   "online": {
+    "n_late": 3,
+    "caught": 3,
+    "flagged": 443
+   }
+  },
+  "ais_dropout": {
+   "static": {
+    "n_late": 209,
+    "caught": 208,
+    "flagged": 1433
+   },
+   "online": {
+    "n_late": 209,
+    "caught": 208,
+    "flagged": 1440
+   }
+  },
+  "link_degradation": {
+   "static": {
+    "n_late": 0,
+    "caught": 0,
+    "flagged": 121
+   },
+   "online": {
+    "n_late": 0,
+    "caught": 0,
+    "flagged": 121
+   }
+  },
+  "rough_sea": {
+   "static": {
+    "n_late": 0,
+    "caught": 0,
+    "flagged": 164
+   },
+   "online": {
+    "n_late": 0,
+    "caught": 0,
+    "flagged": 195
+   }
+  }
+ },
+ "frontier": {
+  "te": {
+   "CORAL": [
+    {
+     "alpha": 0.005,
+     "unsafe": 0.0061333333333333335,
+     "totM": 0.2431111111111111,
+     "FM": 0.2310222222222222
+    },
+    {
+     "alpha": 0.01,
+     "unsafe": 0.0104,
+     "totM": 0.1401777777777778,
+     "FM": 0.12844444444444444
+    },
+    {
+     "alpha": 0.015,
+     "unsafe": 0.014933333333333333,
+     "totM": 0.11822222222222223,
+     "FM": 0.1063111111111111
+    },
+    {
+     "alpha": 0.02,
+     "unsafe": 0.021866666666666666,
+     "totM": 0.0912,
+     "FM": 0.08053333333333333
+    },
+    {
+     "alpha": 0.03,
+     "unsafe": 0.029333333333333333,
+     "totM": 0.0743111111111111,
+     "FM": 0.06515555555555555
+    },
+    {
+     "alpha": 0.04,
+     "unsafe": 0.04106666666666667,
+     "totM": 0.05271111111111111,
+     "FM": 0.04462222222222222
+    }
+   ],
+   "CORAL-F": [
+    {
+     "alpha": 0.005,
+     "unsafe": 0.0061333333333333335,
+     "totM": 0.2448,
+     "FM": 0.2448
+    },
+    {
+     "alpha": 0.01,
+     "unsafe": 0.0104,
+     "totM": 0.14835555555555555,
+     "FM": 0.14826666666666666
+    },
+    {
+     "alpha": 0.015,
+     "unsafe": 0.014666666666666666,
+     "totM": 0.128,
+     "FM": 0.128
+    },
+    {
+     "alpha": 0.02,
+     "unsafe": 0.021066666666666668,
+     "totM": 0.10746666666666667,
+     "FM": 0.10746666666666667
+    },
+    {
+     "alpha": 0.03,
+     "unsafe": 0.027733333333333332,
+     "totM": 0.09902222222222222,
+     "FM": 0.09902222222222222
+    },
+    {
+     "alpha": 0.04,
+     "unsafe": 0.0392,
+     "totM": 0.06853333333333333,
+     "FM": 0.06844444444444445
+    }
+   ]
+  },
+  "ais_dropout": {
+   "CORAL": [
+    {
+     "alpha": 0.005,
+     "unsafe": 0.005333333333333333,
+     "totM": 0.3357777777777778,
+     "FM": 0.32711111111111113
+    },
+    {
+     "alpha": 0.01,
+     "unsafe": 0.051333333333333335,
+     "totM": 0.24222222222222223,
+     "FM": 0.206
+    },
+    {
+     "alpha": 0.015,
+     "unsafe": 0.08066666666666666,
+     "totM": 0.20244444444444445,
+     "FM": 0.16577777777777777
+    },
+    {
+     "alpha": 0.02,
+     "unsafe": 0.16133333333333333,
+     "totM": 0.1831111111111111,
+     "FM": 0.114
+    },
+    {
+     "alpha": 0.03,
+     "unsafe": 0.212,
+     "totM": 0.1622222222222222,
+     "FM": 0.09133333333333334
+    },
+    {
+     "alpha": 0.04,
+     "unsafe": 0.26266666666666666,
+     "totM": 0.14133333333333334,
+     "FM": 0.064
+    }
+   ],
+   "CORAL-F": [
+    {
+     "alpha": 0.005,
+     "unsafe": 0.005333333333333333,
+     "totM": 0.3391111111111111,
+     "FM": 0.3391111111111111
+    },
+    {
+     "alpha": 0.01,
+     "unsafe": 0.008666666666666666,
+     "totM": 0.23977777777777778,
+     "FM": 0.23977777777777778
+    },
+    {
+     "alpha": 0.015,
+     "unsafe": 0.014,
+     "totM": 0.2031111111111111,
+     "FM": 0.2028888888888889
+    },
+    {
+     "alpha": 0.02,
+     "unsafe": 0.022,
+     "totM": 0.16844444444444445,
+     "FM": 0.16533333333333333
+    },
+    {
+     "alpha": 0.03,
+     "unsafe": 0.03,
+     "totM": 0.14755555555555555,
+     "FM": 0.146
+    },
+    {
+     "alpha": 0.04,
+     "unsafe": 0.04133333333333333,
+     "totM": 0.1131111111111111,
+     "FM": 0.10955555555555556
+    }
+   ]
+  }
+ },
+ "stream": {
+  "static": {
+   "unsafe_post": 0.022,
+   "late_post": 0.0,
+   "fm_post": 0.14422222222222222,
+   "unsafe_all": 0.021333333333333333
+  },
+  "online": {
+   "unsafe_post": 0.022,
+   "late_post": 0.0,
+   "fm_post": 0.14577777777777778,
+   "unsafe_all": 0.021333333333333333
+  }
+ }
+}
